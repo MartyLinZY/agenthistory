@@ -1,0 +1,23 @@
+{
+  "repository": "n8n-io/n8n",
+  "group": "high",
+  "rank": 7,
+  "status": "complete",
+  "updated_at": "2026-09-24T08:30:55.761921Z",
+  "unique_prs": 13404,
+  "expected_prs": 13404,
+  "enumeration_complete": true,
+  "file_lists_complete": 12496,
+  "source_lines_eligible": 12496,
+  "created_in_window": 13352,
+  "merged_in_window": 9747,
+  "agent_detected": 61,
+  "error": null,
+  "merged_file_lists_complete": 9747,
+  "merged_source_lines_eligible": 9747,
+  "file_pagination_scope": "All merged-in-window PRs; other PRs retain first file page and aggregate additions/deletions",
+  "elapsed_seconds_this_run": 656.11,
+  "elapsed_seconds_total": 656.11,
+  "new_prs_this_run": 13404,
+  "throughput_new_prs_per_second": 20.429501150721677
+}

@@ -1,0 +1,23 @@
+{
+  "repository": "anomalyco/opencode",
+  "group": "high",
+  "rank": 6,
+  "status": "complete",
+  "updated_at": "2026-09-24T08:19:22.067823Z",
+  "unique_prs": 14557,
+  "expected_prs": 14557,
+  "enumeration_complete": true,
+  "file_lists_complete": 13223,
+  "source_lines_eligible": 13223,
+  "created_in_window": 14557,
+  "merged_in_window": 5536,
+  "agent_detected": 147,
+  "error": null,
+  "merged_file_lists_complete": 5536,
+  "merged_source_lines_eligible": 5536,
+  "file_pagination_scope": "All merged-in-window PRs; other PRs retain first file page and aggregate additions/deletions",
+  "elapsed_seconds_this_run": 447.04,
+  "elapsed_seconds_total": 447.08,
+  "new_prs_this_run": 14557,
+  "throughput_new_prs_per_second": 32.56308160343593
+}

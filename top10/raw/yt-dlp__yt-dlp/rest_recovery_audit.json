@@ -1,0 +1,53 @@
+{
+  "at": "2026-09-24T09:55:07.908930Z",
+  "query": "repo:yt-dlp/yt-dlp is:pr created:2025-10-01T00:00:00Z..2026-06-30T23:59:59Z",
+  "expected": 704,
+  "resolved": 702,
+  "unresolved": [
+    {
+      "id": "PR_kwDOElBrLc66Hjqu",
+      "number": 15386,
+      "url": "https://github.com/yt-dlp/yt-dlp/pull/15386",
+      "errors": [
+        {
+          "type": "NOT_FOUND",
+          "path": [
+            "p2"
+          ],
+          "locations": [
+            {
+              "line": 11,
+              "column": 51
+            }
+          ],
+          "message": "Could not resolve to a node with the global id of 'PR_kwDOElBrLc66Hjqu'."
+        }
+      ]
+    },
+    {
+      "id": "PR_kwDOElBrLc67Y6tC",
+      "number": 15481,
+      "url": "https://github.com/yt-dlp/yt-dlp/pull/15481",
+      "errors": [
+        {
+          "type": "NOT_FOUND",
+          "path": [
+            "p4"
+          ],
+          "locations": [
+            {
+              "line": 21,
+              "column": 51
+            }
+          ],
+          "message": "Could not resolve to a node with the global id of 'PR_kwDOElBrLc67Y6tC'."
+        }
+      ]
+    }
+  ],
+  "missing_ids": [
+    "PR_kwDOElBrLc66Hjqu",
+    "PR_kwDOElBrLc67Y6tC"
+  ],
+  "complete": false
+}

@@ -1,0 +1,23 @@
+{
+  "repository": "tensorflow/tensorflow",
+  "group": "high",
+  "rank": 8,
+  "status": "complete",
+  "updated_at": "2026-09-24T08:55:49.590231Z",
+  "unique_prs": 35281,
+  "expected_prs": 35281,
+  "enumeration_complete": true,
+  "file_lists_complete": 31786,
+  "source_lines_eligible": 31786,
+  "created_in_window": 35144,
+  "merged_in_window": 20127,
+  "agent_detected": 7,
+  "error": null,
+  "merged_file_lists_complete": 20127,
+  "merged_source_lines_eligible": 20127,
+  "file_pagination_scope": "All merged-in-window PRs; other PRs retain first file page and aggregate additions/deletions",
+  "elapsed_seconds_this_run": 1460.44,
+  "elapsed_seconds_total": 1460.43,
+  "new_prs_this_run": 35281,
+  "throughput_new_prs_per_second": 24.157788063871163
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "file": "failures.jsonl",
+    "stored_path": "raw/failures.jsonl.gz",
+    "uncompressed_bytes": 1367094,
+    "uncompressed_sha256": "8f009a84f4f8a91822f314442edef1b0561ac5cbd503d01b816d753cce0d6b87",
+    "records": 6903
+  },
+  {
+    "file": "pr_labels_v2.jsonl",
+    "stored_path": "raw/pr_labels_v2.jsonl.gz",
+    "uncompressed_bytes": 49133980,
+    "uncompressed_sha256": "154457b7065557ca7924dd9424f242869ffc97696115d4cce93efe7e755ecd84",
+    "records": 126685
+  },
+  {
+    "file": "prs.jsonl",
+    "stored_path": "raw/prs.jsonl.gz",
+    "uncompressed_bytes": 1956895437,
+    "uncompressed_sha256": "fb827966b223beeaf4fc151164d2f95c726d24ac7d8859bec4ed68fa7fc026fe",
+    "records": 126740
+  },
+  {
+    "file": "run_metadata.json",
+    "stored_path": "raw/run_metadata.json",
+    "uncompressed_bytes": 2473,
+    "uncompressed_sha256": "7b2018477d4725ec85cc2f0cb759f7f78c1ee6f26f5a0887a557776872f5d255",
+    "records": null
+  },
+  {
+    "file": "search_windows.jsonl",
+    "stored_path": "raw/search_windows.jsonl.gz",
+    "uncompressed_bytes": 14462209,
+    "uncompressed_sha256": "2a48195d17d8510ba9a00bf3fe4de24e9d637e53369a33c96b712c2c7133a580",
+    "records": 40706
+  },
+  {
+    "file": "selections.jsonl",
+    "stored_path": "raw/selections.jsonl.gz",
+    "uncompressed_bytes": 108779685,
+    "uncompressed_sha256": "8d03d688974e46e75bb8cb2906ef1aeadc57001d1a7f86490b0502c03d57a9b7",
+    "records": 360186
+  }
+]

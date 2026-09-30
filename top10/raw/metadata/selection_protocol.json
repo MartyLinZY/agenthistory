@@ -1,0 +1,47 @@
+{
+  "frozen_at": "2026-09-24T03:23:23.726004+00:00",
+  "repositories_explicitly_approved_by_user": [
+    "openclaw/openclaw",
+    "react/react",
+    "NousResearch/hermes-agent",
+    "deepseek-ai/deepseek-harness",
+    "vuejs/vue",
+    "anomalyco/opencode",
+    "n8n-io/n8n",
+    "tensorflow/tensorflow",
+    "yt-dlp/yt-dlp",
+    "microsoft/vscode"
+  ],
+  "scope": "All PRs created in 2025-01-01..2026-06-30 plus older PRs merged in that window; no PR sampling.",
+  "file_scope": "All aggregate additions/deletions; full file pagination for merged-in-window PRs.",
+  "technical_scope": "User-approved software systems, apps, libraries and frameworks. Evidence verification stored separately; no claims of semantic classifier accuracy.",
+  "ranking_scope": "10 user-approved technical candidates from current star-ranked snapshot, not a proven exhaustive global technical-project ranking.",
+  "deadline_beijing": null,
+  "low_controls": "Deferred until these 10 projects are complete and strict technical matching can be established; no automatic use of old metadata-only control selection.",
+  "concurrency": {
+    "workers": 5,
+    "scope": "non-overlapping time windows within one repository",
+    "shared_credential": true,
+    "minimum_request_start_spacing_seconds": 1,
+    "secondary_limit_action": "shared cooldown and downgrade to serial",
+    "primary_limit_action": "wait until reset",
+    "trial": "Five workers, shared request-start spacing of one second; no time limit."
+  },
+  "request_strategy": {
+    "initial_pr_page_size": 50,
+    "initial_files_per_pr": 10,
+    "fallback_pr_page_sizes": [
+      25,
+      10,
+      1
+    ],
+    "file_pagination": "All merged-in-window PRs, adaptive per-request batch sizes 20/10/5/2/1",
+    "supervised_transient_retries": true,
+    "transport": "system curl",
+    "network_workers": 5
+  },
+  "updated_at": "2026-09-24T07:58:38.490618+00:00",
+  "time_limit_removed_at": "2026-09-24T08:07:05.680020+00:00",
+  "stop_policy": "No wall-clock deadline or forecast cutoff. Continue through the selected cohort; retain rate-limit waits and integrity/error checks.",
+  "export_note": "Historical candidate replacements omitted; final selected cohort retained."
+}

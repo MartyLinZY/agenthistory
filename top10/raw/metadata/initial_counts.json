@@ -1,0 +1,72 @@
+[
+  {
+    "repository": "openclaw/openclaw",
+    "rank": 1,
+    "created_prs": 54904,
+    "older_merged_prs": 0,
+    "total_expected": 54904
+  },
+  {
+    "repository": "react/react",
+    "rank": 2,
+    "created_prs": 3142,
+    "older_merged_prs": 32,
+    "total_expected": 3174
+  },
+  {
+    "repository": "NousResearch/hermes-agent",
+    "rank": 3,
+    "created_prs": 41981,
+    "older_merged_prs": 0,
+    "total_expected": 41981
+  },
+  {
+    "repository": "deepseek-ai/deepseek-harness",
+    "rank": 4,
+    "created_prs": 0,
+    "older_merged_prs": 0,
+    "total_expected": 0
+  },
+  {
+    "repository": "vuejs/vue",
+    "rank": 5,
+    "created_prs": 92,
+    "older_merged_prs": 0,
+    "total_expected": 92
+  },
+  {
+    "repository": "anomalyco/opencode",
+    "rank": 6,
+    "created_prs": 14557,
+    "older_merged_prs": 0,
+    "total_expected": 14557
+  },
+  {
+    "repository": "n8n-io/n8n",
+    "rank": 7,
+    "created_prs": 13352,
+    "older_merged_prs": 52,
+    "total_expected": 13404
+  },
+  {
+    "repository": "tensorflow/tensorflow",
+    "rank": 8,
+    "created_prs": 35144,
+    "older_merged_prs": 137,
+    "total_expected": 35281
+  },
+  {
+    "repository": "yt-dlp/yt-dlp",
+    "rank": 9,
+    "created_prs": 1456,
+    "older_merged_prs": 43,
+    "total_expected": 1499
+  },
+  {
+    "repository": "microsoft/vscode",
+    "rank": 10,
+    "created_prs": 25131,
+    "older_merged_prs": 73,
+    "total_expected": 25204
+  }
+]

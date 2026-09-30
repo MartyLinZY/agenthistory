@@ -1,0 +1,72 @@
+[
+  {
+    "repository": "NousResearch/hermes-agent",
+    "compressed_path": "raw/NousResearch__hermes-agent/prs.jsonl.gz",
+    "restored_path": "raw/NousResearch__hermes-agent/prs.jsonl",
+    "uncompressed_bytes": 138070081,
+    "uncompressed_sha256": "cd70fface9d7aa38aeb79e678e6fb1b07bdffd1929473ff3b4fba0fcb28a7a68"
+  },
+  {
+    "repository": "anomalyco/opencode",
+    "compressed_path": "raw/anomalyco__opencode/prs.jsonl.gz",
+    "restored_path": "raw/anomalyco__opencode/prs.jsonl",
+    "uncompressed_bytes": 33754754,
+    "uncompressed_sha256": "eda8bfec78483421e7dc82c5524eaf2ddd5d83ae1e2dbc54b3fd875feef0c1e0"
+  },
+  {
+    "repository": "deepseek-ai/deepseek-harness",
+    "compressed_path": "raw/deepseek-ai__deepseek-harness/prs.jsonl.gz",
+    "restored_path": "raw/deepseek-ai__deepseek-harness/prs.jsonl",
+    "uncompressed_bytes": 0,
+    "uncompressed_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "repository": "microsoft/vscode",
+    "compressed_path": "raw/microsoft__vscode/prs.jsonl.gz",
+    "restored_path": "raw/microsoft__vscode/prs.jsonl",
+    "uncompressed_bytes": 53697472,
+    "uncompressed_sha256": "8270833a6dca8178b9aac010362a7942e0120f5e170b28bd856f1a27d8ac70a7"
+  },
+  {
+    "repository": "n8n-io/n8n",
+    "compressed_path": "raw/n8n-io__n8n/prs.jsonl.gz",
+    "restored_path": "raw/n8n-io__n8n/prs.jsonl",
+    "uncompressed_bytes": 55233168,
+    "uncompressed_sha256": "1f9ae354b45eb74eeaa81dae9db3e726350a46b9c8d3f9450829911a6587e1a0"
+  },
+  {
+    "repository": "openclaw/openclaw",
+    "compressed_path": "raw/openclaw__openclaw/prs.jsonl.gz",
+    "restored_path": "raw/openclaw__openclaw/prs.jsonl",
+    "uncompressed_bytes": 252161024,
+    "uncompressed_sha256": "afce564d991f3039cde18fd4697ae8f8b603bbf59307b005e8a1a094453f2088"
+  },
+  {
+    "repository": "react/react",
+    "compressed_path": "raw/react__react/prs.jsonl.gz",
+    "restored_path": "raw/react__react/prs.jsonl",
+    "uncompressed_bytes": 9843402,
+    "uncompressed_sha256": "75738e6696abe4b0d93db07780ecdc13c3033029f253f81f300620013f8d60c7"
+  },
+  {
+    "repository": "tensorflow/tensorflow",
+    "compressed_path": "raw/tensorflow__tensorflow/prs.jsonl.gz",
+    "restored_path": "raw/tensorflow__tensorflow/prs.jsonl",
+    "uncompressed_bytes": 90196921,
+    "uncompressed_sha256": "3fdaf99b225270b9a1de1495cf017757cec4c9a0bec1ad415d7e0e5de41df5a7"
+  },
+  {
+    "repository": "vuejs/vue",
+    "compressed_path": "raw/vuejs__vue/prs.jsonl.gz",
+    "restored_path": "raw/vuejs__vue/prs.jsonl",
+    "uncompressed_bytes": 180341,
+    "uncompressed_sha256": "ebe704327ff84e37638790d4d7bdf60d18ff66400dd70b2db8fe5ce304508dc3"
+  },
+  {
+    "repository": "yt-dlp/yt-dlp",
+    "compressed_path": "raw/yt-dlp__yt-dlp/prs.jsonl.gz",
+    "restored_path": "raw/yt-dlp__yt-dlp/prs.jsonl",
+    "uncompressed_bytes": 5087661,
+    "uncompressed_sha256": "db4cf253ebf5d95e6dbbe37e67411a28878ad1fb458232493d0c075d51502194"
+  }
+]

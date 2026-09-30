@@ -1,0 +1,23 @@
+{
+  "repository": "deepseek-ai/deepseek-harness",
+  "group": "high",
+  "rank": 4,
+  "status": "complete",
+  "updated_at": "2026-09-24T08:10:44.817536Z",
+  "unique_prs": 0,
+  "expected_prs": 0,
+  "enumeration_complete": true,
+  "file_lists_complete": 0,
+  "source_lines_eligible": 0,
+  "created_in_window": 0,
+  "merged_in_window": 0,
+  "agent_detected": 0,
+  "error": null,
+  "merged_file_lists_complete": 0,
+  "merged_source_lines_eligible": 0,
+  "file_pagination_scope": "All merged-in-window PRs; other PRs retain first file page and aggregate additions/deletions",
+  "elapsed_seconds_this_run": 0.91,
+  "elapsed_seconds_total": 0.9,
+  "new_prs_this_run": 0,
+  "throughput_new_prs_per_second": 0.0
+}

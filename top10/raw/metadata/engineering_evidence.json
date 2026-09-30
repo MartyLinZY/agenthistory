@@ -1,0 +1,2426 @@
+{
+  "checked_at": "2026-09-24T03:26:42.131705Z",
+  "repositories": [
+    {
+      "repository": "openclaw/openclaw",
+      "resolved_name": "openclaw/openclaw",
+      "source_directories": [
+        "apps",
+        "packages",
+        "src"
+      ],
+      "build_manifests": [
+        "package.json"
+      ],
+      "test_or_ci_paths": [
+        ".github",
+        "test"
+      ],
+      "latest_release": {
+        "tagName": "v2026.9.6",
+        "publishedAt": "2026-09-23T23:21:10Z"
+      },
+      "package_entry_points": {
+        "name": "openclaw",
+        "main": "dist/index.js",
+        "bin": {
+          "openclaw": "openclaw.mjs"
+        },
+        "exports": {
+          ".": "./dist/index.js",
+          "./plugin-sdk/core": {
+            "types": "./dist/plugin-sdk/core.d.ts",
+            "default": "./dist/plugin-sdk/core.js"
+          },
+          "./plugin-sdk/code-mode-executor-runtime": {
+            "types": "./dist/plugin-sdk/code-mode-executor-runtime.d.ts",
+            "default": "./dist/plugin-sdk/code-mode-executor-runtime.js"
+          },
+          "./plugin-sdk/control-ui-link-reader": {
+            "types": "./dist/plugin-sdk/control-ui-link-reader.d.ts",
+            "default": "./dist/plugin-sdk/control-ui-link-reader.js"
+          },
+          "./plugin-sdk/provider-setup": {
+            "default": "./dist/plugin-sdk/provider-setup.js"
+          },
+          "./plugin-sdk/sandbox": {
+            "default": "./dist/plugin-sdk/sandbox.js"
+          },
+          "./plugin-sdk/routing": {
+            "types": "./dist/plugin-sdk/routing.d.ts",
+            "default": "./dist/plugin-sdk/routing.js"
+          },
+          "./plugin-sdk/runtime": {
+            "types": "./dist/plugin-sdk/runtime.d.ts",
+            "default": "./dist/plugin-sdk/runtime.js"
+          },
+          "./plugin-sdk/health": {
+            "types": "./dist/plugin-sdk/health.d.ts",
+            "default": "./dist/plugin-sdk/health.js"
+          },
+          "./plugin-sdk/doctor-repair-runtime": {
+            "default": "./dist/plugin-sdk/doctor-repair-runtime.js"
+          },
+          "./plugin-sdk/model-ref-parse": {
+            "default": "./dist/plugin-sdk/model-ref-parse.js"
+          },
+          "./plugin-sdk/model-catalog-pricing": {
+            "default": "./dist/plugin-sdk/model-catalog-pricing.js"
+          },
+          "./plugin-sdk/outbound-echo-runtime": {
+            "default": "./dist/plugin-sdk/outbound-echo-runtime.js"
+          },
+          "./plugin-sdk/secret-provider-alias": {
+            "default": "./dist/plugin-sdk/secret-provider-alias.js"
+          },
+          "./plugin-sdk/session-store-paths": {
+            "default": "./dist/plugin-sdk/session-store-paths.js"
+          },
+          "./plugin-sdk/plugin-state-store-runtime": {
+            "default": "./dist/plugin-sdk/plugin-state-store-runtime.js"
+          },
+          "./plugin-sdk/runtime-doctor": {
+            "default": "./dist/plugin-sdk/runtime-doctor.js"
+          },
+          "./plugin-sdk/runtime-doctor-migrations": {
+            "default": "./dist/plugin-sdk/runtime-doctor-migrations.js"
+          },
+          "./plugin-sdk/runtime-env": {
+            "types": "./dist/plugin-sdk/runtime-env.d.ts",
+            "default": "./dist/plugin-sdk/runtime-env.js"
+          },
+          "./plugin-sdk/proxy-capture": {
+            "types": "./dist/plugin-sdk/proxy-capture.d.ts",
+            "default": "./dist/plugin-sdk/proxy-capture.js"
+          },
+          "./plugin-sdk/setup": {
+            "types": "./dist/plugin-sdk/setup.d.ts",
+            "default": "./dist/plugin-sdk/setup.js"
+          },
+          "./plugin-sdk/setup-runtime": {
+            "types": "./dist/plugin-sdk/setup-runtime.d.ts",
+            "default": "./dist/plugin-sdk/setup-runtime.js"
+          },
+          "./plugin-sdk/channel-setup": {
+            "types": "./dist/plugin-sdk/channel-setup.d.ts",
+            "default": "./dist/plugin-sdk/channel-setup.js"
+          },
+          "./plugin-sdk/channel-streaming-config": {
+            "types": "./dist/plugin-sdk/channel-streaming-config.d.ts",
+            "default": "./dist/plugin-sdk/channel-streaming-config.js"
+          },
+          "./plugin-sdk/setup-tools": {
+            "types": "./dist/plugin-sdk/setup-tools.d.ts",
+            "default": "./dist/plugin-sdk/setup-tools.js"
+          },
+          "./plugin-sdk/archive": {
+            "types": "./dist/plugin-sdk/archive.d.ts",
+            "default": "./dist/plugin-sdk/archive.js"
+          },
+          "./plugin-sdk/blob-runtime": {
+            "default": "./dist/plugin-sdk/blob-runtime.js"
+          },
+          "./plugin-sdk/root-walk": {
+            "types": "./dist/plugin-sdk/root-walk.d.ts",
+            "default": "./dist/plugin-sdk/root-walk.js"
+          },
+          "./plugin-sdk/secret-file": {
+            "types": "./dist/plugin-sdk/secret-file.d.ts",
+            "default": "./dist/plugin-sdk/secret-file.js"
+          },
+          "./plugin-sdk/approval-auth-runtime": {
+            "types": "./dist/plugin-sdk/approval-auth-runtime.d.ts",
+            "default": "./dist/plugin-sdk/approval-auth-runtime.js"
+          },
+          "./plugin-sdk/approval-client-runtime": {
+            "types": "./dist/plugin-sdk/approval-client-runtime.d.ts",
+            "default": "./dist/plugin-sdk/approval-client-runtime.js"
+          },
+          "./plugin-sdk/approval-delivery-runtime": {
+            "types": "./dist/plugin-sdk/approval-delivery-runtime.d.ts",
+            "default": "./dist/plugin-sdk/approval-delivery-runtime.js"
+          },
+          "./plugin-sdk/approval-gateway-runtime": {
+            "types": "./dist/plugin-sdk/approval-gateway-runtime.d.ts",
+            "default": "./dist/plugin-sdk/approval-gateway-runtime.js"
+          },
+          "./plugin-sdk/approval-reference-runtime": {
+            "default": "./dist/plugin-sdk/approval-reference-runtime.js"
+          },
+          "./plugin-sdk/approval-handler-adapter-runtime": {
+            "types": "./dist/plugin-sdk/approval-handler-adapter-runtime.d.ts",
+            "default": "./dist/plugin-sdk/approval-handler-adapter-runtime.js"
+          },
+          "./plugin-sdk/approval-handler-runtime": {
+            "types": "./dist/plugin-sdk/approval-handler-runtime.d.ts",
+            "default": "./dist/plugin-sdk/approval-handler-runtime.js"
+          },
+          "./plugin-sdk/channel-runtime-context": {
+            "types": "./dist/plugin-sdk/channel-runtime-context.d.ts",
+            "default": "./dist/plugin-sdk/channel-runtime-context.js"
+          },
+          "./plugin-sdk/approval-native-runtime": {
+            "types": "./dist/plugin-sdk/approval-native-runtime.d.ts",
+            "default": "./dist/plugin-sdk/approval-native-runtime.js"
+          },
+          "./plugin-sdk/approval-reaction-runtime": {
+            "default": "./dist/plugin-sdk/approval-reaction-runtime.js"
+          },
+          "./plugin-sdk/approval-reply-runtime": {
+            "types": "./dist/plugin-sdk/approval-reply-runtime.d.ts",
+            "default": "./dist/plugin-sdk/approval-reply-runtime.js"
+          },
+          "./plugin-sdk/approval-runtime": {
+            "types": "./dist/plugin-sdk/approval-runtime.d.ts",
+            "default": "./dist/plugin-sdk/approval-runtime.js"
+          },
+          "./plugin-sdk/question-gateway-runtime": {
+            "types": "./dist/plugin-sdk/question-gateway-runtime.d.ts",
+            "default": "./dist/plugin-sdk/question-gateway-runtime.js"
+          },
+          "./plugin-sdk/config-runtime": {
+            "types": "./dist/plugin-sdk/config-runtime.d.ts",
+            "default": "./dist/plugin-sdk/config-runtime.js"
+          },
+          "./plugin-sdk/config-contracts": {
+            "types": "./dist/plugin-sdk/config-contracts.d.ts",
+            "default": "./dist/plugin-sdk/config-contracts.js"
+          },
+          "./plugin-sdk/plugin-config-runtime": {
+            "types": "./dist/plugin-sdk/plugin-config-runtime.d.ts",
+            "default": "./dist/plugin-sdk/plugin-config-runtime.js"
+          },
+          "./plugin-sdk/config-mutation": {
+            "types": "./dist/plugin-sdk/config-mutation.d.ts",
+            "default": "./dist/plugin-sdk/config-mutation.js"
+          },
+          "./plugin-sdk/cron-store-runtime": {
+            "default": "./dist/plugin-sdk/cron-store-runtime.js"
+          },
+          "./plugin-sdk/json-schema-runtime": {
+            "default": "./dist/plugin-sdk/json-schema-runtime.js"
+          },
+          "./plugin-sdk/json-unsafe-integers": {
+            "default": "./dist/plugin-sdk/json-unsafe-integers.js"
+          },
+          "./plugin-sdk/reply-runtime": {
+            "types": "./dist/plugin-sdk/reply-runtime.d.ts",
+            "default": "./dist/plugin-sdk/reply-runtime.js"
+          },
+          "./plugin-sdk/reply-dispatch-runtime": {
+            "types": "./dist/plugin-sdk/reply-dispatch-runtime.d.ts",
+            "default": "./dist/plugin-sdk/reply-dispatch-runtime.js"
+          },
+          "./plugin-sdk/reply-reference": {
+            "default": "./dist/plugin-sdk/reply-reference.js"
+          },
+          "./plugin-sdk/reply-chunking": {
+            "types": "./dist/plugin-sdk/reply-chunking.d.ts",
+            "default": "./dist/plugin-sdk/reply-chunking.js"
+          },
+          "./plugin-sdk/reply-payload": {
+            "types": "./dist/plugin-sdk/reply-payload.d.ts",
+            "default": "./dist/plugin-sdk/reply-payload.js"
+          },
+          "./plugin-sdk/agent-media-payload": {
+            "types": "./dist/plugin-sdk/agent-media-payload.d.ts",
+            "default": "./dist/plugin-sdk/agent-media-payload.js"
+          },
+          "./plugin-sdk/inbound-reply-dispatch": {
+            "types": "./dist/plugin-sdk/inbound-reply-dispatch.d.ts",
+            "default": "./dist/plugin-sdk/inbound-reply-dispatch.js"
+          },
+          "./plugin-sdk/inbound-envelope": {
+            "types": "./dist/plugin-sdk/inbound-envelope.d.ts",
+            "default": "./dist/plugin-sdk/inbound-envelope.js"
+          },
+          "./plugin-sdk/inbound-event-delivery": {
+            "types": "./dist/plugin-sdk/inbound-event-delivery.d.ts",
+            "default": "./dist/plugin-sdk/inbound-event-delivery.js"
+          },
+          "./plugin-sdk/channel-reply-pipeline": {
+            "types": "./dist/plugin-sdk/channel-reply-pipeline.d.ts",
+            "default": "./dist/plugin-sdk/channel-reply-pipeline.js"
+          },
+          "./plugin-sdk/interactive-runtime": {
+            "types": "./dist/plugin-sdk/interactive-runtime.d.ts",
+            "default": "./dist/plugin-sdk/interactive-runtime.js"
+          },
+          "./plugin-sdk/outbound-media": {
+            "default": "./dist/plugin-sdk/outbound-media.js"
+          },
+          "./plugin-sdk/pair-loop-guard-runtime": {
+            "default": "./dist/plugin-sdk/pair-loop-guard-runtime.js"
+          },
+          "./plugin-sdk/poll-runtime": {
+            "default": "./dist/plugin-sdk/poll-runtime.js"
+          },
+          "./plugin-sdk/async-lock-runtime": {
+            "default": "./dist/plugin-sdk/async-lock-runtime.js"
+          },
+          "./plugin-sdk/channel-activity-runtime": {
+            "default": "./dist/plugin-sdk/channel-activity-runtime.js"
+          },
+          "./plugin-sdk/channel-join-intro-runtime": {
+            "default": "./dist/plugin-sdk/channel-join-intro-runtime.js"
+          },
+          "./plugin-sdk/concurrency-runtime": {
+            "default": "./dist/plugin-sdk/concurrency-runtime.js"
+          },
+          "./plugin-sdk/dedupe-runtime": {
+            "types": "./dist/plugin-sdk/dedupe-runtime.d.ts",
+            "default": "./dist/plugin-sdk/dedupe-runtime.js"
+          },
+          "./plugin-sdk/delivery-queue-runtime": {
+            "default": "./dist/plugin-sdk/delivery-queue-runtime.js"
+          },
+          "./plugin-sdk/file-access-runtime": {
+            "default": "./dist/plugin-sdk/file-access-runtime.js"
+          },
+          "./plugin-sdk/node-selection-runtime": {
+            "default": "./dist/plugin-sdk/node-selection-runtime.js"
+          },
+          "./plugin-sdk/heartbeat-runtime": {
+            "default": "./dist/plugin-sdk/heartbeat-runtime.js"
+          },
+          "./plugin-sdk/expect-runtime": {
+            "default": "./dist/plugin-sdk/expect-runtime.js"
+          },
+          "./plugin-sdk/number-runtime": {
+            "default": "./dist/plugin-sdk/number-runtime.js"
+          },
+          "./plugin-sdk/secure-random-runtime": {
+            "default": "./dist/plugin-sdk/secure-random-runtime.js"
+          },
+          "./plugin-sdk/system-event-runtime": {
+            "default": "./dist/plugin-sdk/system-event-runtime.js"
+          },
+          "./plugin-sdk/transport-ready-runtime": {
+            "default": "./dist/plugin-sdk/transport-ready-runtime.js"
+          },
+          "./plugin-sdk/exec-approvals-runtime": {
+            "default": "./dist/plugin-sdk/exec-approvals-runtime.js"
+          },
+          "./plugin-sdk/infra-runtime": {
+            "types": "./dist/plugin-sdk/infra-runtime.d.ts",
+            "default": "./dist/plugin-sdk/infra-runtime.js"
+          },
+          "./plugin-sdk/runtime-config-snapshot": {
+            "types": "./dist/plugin-sdk/runtime-config-snapshot.d.ts",
+            "default": "./dist/plugin-sdk/runtime-config-snapshot.js"
+          },
+          "./plugin-sdk/runtime-group-policy": {
+            "types": "./dist/plugin-sdk/runtime-group-policy.d.ts",
+            "default": "./dist/plugin-sdk/runtime-group-policy.js"
+          },
+          "./plugin-sdk/model-session-runtime": {
+            "types": "./dist/plugin-sdk/model-session-runtime.d.ts",
+            "default": "./dist/plugin-sdk/model-session-runtime.js"
+          },
+          "./plugin-sdk/talk-config-runtime": {
+            "default": "./dist/plugin-sdk/talk-config-runtime.js"
+          },
+          "./plugin-sdk/ssrf-policy": {
+            "types": "./dist/plugin-sdk/ssrf-policy.d.ts",
+            "default": "./dist/plugin-sdk/ssrf-policy.js"
+          },
+          "./plugin-sdk/ssrf-runtime": {
+            "types": "./dist/plugin-sdk/ssrf-runtime.d.ts",
+            "default": "./dist/plugin-sdk/ssrf-runtime.js"
+          },
+          "./plugin-sdk/ssrf-runtime-internal": {
+            "default": "./dist/plugin-sdk/ssrf-runtime-internal.js"
+          },
+          "./plugin-sdk/media-runtime": {
+            "types": "./dist/plugin-sdk/media-runtime.d.ts",
+            "default": "./dist/plugin-sdk/media-runtime.js"
+          },
+          "./plugin-sdk/media-local-roots": {
+            "types": "./dist/plugin-sdk/media-local-roots.d.ts",
+            "default": "./dist/plugin-sdk/media-local-roots.js"
+          },
+          "./plugin-sdk/media-store": {
+            "types": "./dist/plugin-sdk/media-store.d.ts",
+            "default": "./dist/plugin-sdk/media-store.js"
+          },
+          "./plugin-sdk/media-mime": {
+            "types": "./dist/plugin-sdk/media-mime.d.ts",
+            "default": "./dist/plugin-sdk/media-mime.js"
+          },
+          "./plugin-sdk/media-ffmpeg": {
+            "default": "./dist/plugin-sdk/media-ffmpeg.js"
+          },
+          "./plugin-sdk/embedding-providers": {
+            "default": "./dist/plugin-sdk/embedding-providers.js"
+          },
+          "./plugin-sdk/embedding-provider-runtime-contract": {
+            "types": "./dist/plugin-sdk/embedding-provider-runtime-contract.d.ts",
+            "default": "./dist/plugin-sdk/embedding-provider-runtime-contract.js"
+          },
+          "./plugin-sdk/embedding-provider-adapter": {
+            "default": "./dist/plugin-sdk/embedding-provider-adapter.js"
+          },
+          "./plugin-sdk/media-generation-runtime": {
+            "default": "./dist/plugin-sdk/media-generation-runtime.js"
+          },
+          "./plugin-sdk/conversation-binding-inspection-runtime": {
+            "types": "./dist/plugin-sdk/conversation-binding-inspection-runtime.d.ts",
+            "default": "./dist/plugin-sdk/conversation-binding-inspection-runtime.js"
+          },
+          "./plugin-sdk/conversation-binding-runtime": {
+            "default": "./dist/plugin-sdk/conversation-binding-runtime.js"
+          },
+          "./plugin-sdk/conversation-runtime": {
+            "types": "./dist/plugin-sdk/conversation-runtime.d.ts",
+            "default": "./dist/plugin-sdk/conversation-runtime.js"
+          },
+          "./plugin-sdk/thread-bindings-runtime": {
+            "default": "./dist/plugin-sdk/thread-bindings-runtime.js"
+          },
+          "./plugin-sdk/thread-bindings-session-runtime": {
+            "default": "./dist/plugin-sdk/thread-bindings-session-runtime.js"
+          },
+          "./plugin-sdk/text-chunking": {
+            "types": "./dist/plugin-sdk/text-chunking.d.ts",
+            "default": "./dist/plugin-sdk/text-chunking.js"
+          },
+          "./plugin-sdk/agent-scope-runtime": {
+            "types": "./dist/plugin-sdk/agent-scope-runtime.d.ts",
+            "default": "./dist/plugin-sdk/agent-scope-runtime.js"
+          },
+          "./plugin-sdk/agent-runtime": {
+            "types": "./dist/plugin-sdk/agent-runtime.d.ts",
+            "default": "./dist/plugin-sdk/agent-runtime.js"
+          },
+          "./plugin-sdk/simple-completion-runtime": {
+            "default": "./dist/plugin-sdk/simple-completion-runtime.js"
+          },
+          "./plugin-sdk/speech-core": {
+            "default": "./dist/plugin-sdk/speech-core.js"
+          },
+          "./plugin-sdk/speech-provider": {
+            "default": "./dist/plugin-sdk/speech-provider.js"
+          },
+          "./plugin-sdk/speech-settings": {
+            "types": "./dist/plugin-sdk/speech-settings.d.ts",
+            "default": "./dist/plugin-sdk/speech-settings.js"
+          },
+          "./plugin-sdk/tts-runtime": {
+            "default": "./dist/plugin-sdk/tts-runtime.js"
+          },
+          "./plugin-sdk/plugin-command-runtime": {
+            "types": "./dist/plugin-sdk/plugin-command-runtime.d.ts",
+            "default": "./dist/plugin-sdk/plugin-command-runtime.js"
+          },
+          "./plugin-sdk/plugin-runtime": {
+            "types": "./dist/plugin-sdk/plugin-runtime.d.ts",
+            "default": "./dist/plugin-sdk/plugin-runtime.js"
+          },
+          "./plugin-sdk/channel-secret-basic-runtime": {
+            "types": "./dist/plugin-sdk/channel-secret-basic-runtime.d.ts",
+            "default": "./dist/plugin-sdk/channel-secret-basic-runtime.js"
+          },
+          "./plugin-sdk/channel-secret-owner-runtime": {
+            "default": "./dist/plugin-sdk/channel-secret-owner-runtime.js"
+          },
+          "./plugin-sdk/channel-secret-tts-runtime": {
+            "default": "./dist/plugin-sdk/channel-secret-tts-runtime.js"
+          },
+          "./plugin-sdk/secret-ref-runtime": {
+            "types": "./dist/plugin-sdk/secret-ref-runtime.d.ts",
+            "default": "./dist/plugin-sdk/secret-ref-runtime.js"
+          },
+          "./plugin-sdk/secret-egress-runtime": {
+            "default": "./dist/plugin-sdk/secret-egress-runtime.js"
+          },
+          "./plugin-sdk/secret-file-runtime": {
+            "default": "./dist/plugin-sdk/secret-file-runtime.js"
+          },
+          "./plugin-sdk/security-runtime": {
+            "types": "./dist/plugin-sdk/security-runtime.d.ts",
+            "default": "./dist/plugin-sdk/security-runtime.js"
+          },
+          "./plugin-sdk/gateway-config-runtime": {
+            "default": "./dist/plugin-sdk/gateway-config-runtime.js"
+          },
+          "./plugin-sdk/gateway-method-runtime": {
+            "types": "./dist/plugin-sdk/gateway-method-runtime.d.ts",
+            "default": "./dist/plugin-sdk/gateway-method-runtime.js"
+          },
+          "./plugin-sdk/gateway-runtime": {
+            "types": "./dist/plugin-sdk/gateway-runtime.d.ts",
+            "default": "./dist/plugin-sdk/gateway-runtime.js"
+          },
+          "./plugin-sdk/websocket-runtime": {
+            "types": "./dist/plugin-sdk/websocket-runtime.d.ts",
+            "default": "./dist/plugin-sdk/websocket-runtime.js"
+          },
+          "./plugin-sdk/cli-argv": {
+            "types": "./dist/plugin-sdk/cli-argv.d.ts",
+            "default": "./dist/plugin-sdk/cli-argv.js"
+          },
+          "./plugin-sdk/cli-runtime": {
+            "default": "./dist/plugin-sdk/cli-runtime.js"
+          },
+          "./plugin-sdk/node-cli-runtime": {
+            "types": "./dist/plugin-sdk/node-cli-runtime.d.ts",
+            "default": "./dist/plugin-sdk/node-cli-runtime.js"
+          },
+          "./plugin-sdk/cli-backend": {
+            "default": "./dist/plugin-sdk/cli-backend.js"
+          },
+          "./plugin-sdk/claude-model-runtime": {
+            "default": "./dist/plugin-sdk/claude-model-runtime.js"
+          },
+          "./plugin-sdk/codex-mcp-projection": {
+            "default": "./dist/plugin-sdk/codex-mcp-projection.js"
+          },
+          "./plugin-sdk/native-hook-relay-runtime": {
+            "default": "./dist/plugin-sdk/native-hook-relay-runtime.js"
+          },
+          "./plugin-sdk/codex-session-transcript-runtime": {
+            "default": "./dist/plugin-sdk/codex-session-transcript-runtime.js"
+          },
+          "./plugin-sdk/agent-harness-task-runtime": {
+            "default": "./dist/plugin-sdk/agent-harness-task-runtime.js"
+          },
+          "./plugin-sdk/agent-harness": {
+            "types": "./dist/plugin-sdk/agent-harness.d.ts",
+            "default": "./dist/plugin-sdk/agent-harness.js"
+          },
+          "./plugin-sdk/agent-harness-attempt-runtime": {
+            "default": "./dist/plugin-sdk/agent-harness-attempt-runtime.js"
+          },
+          "./plugin-sdk/agent-harness-exec-review-runtime": {
+            "default": "./dist/plugin-sdk/agent-harness-exec-review-runtime.js"
+          },
+          "./plugin-sdk/agent-harness-registration": {
+            "default": "./dist/plugin-sdk/agent-harness-registration.js"
+          },
+          "./plugin-sdk/agent-harness-runtime": {
+            "types": "./dist/plugin-sdk/agent-harness-runtime.d.ts",
+            "default": "./dist/plugin-sdk/agent-harness-runtime.js"
+          },
+          "./plugin-sdk/agent-workspace-runtime": {
+            "types": "./dist/plugin-sdk/agent-workspace-runtime.d.ts",
+            "default": "./dist/plugin-sdk/agent-workspace-runtime.js"
+          },
+          "./plugin-sdk/agent-harness-session-runtime": {
+            "default": "./dist/plugin-sdk/agent-harness-session-runtime.js"
+          },
+          "./plugin-sdk/agent-harness-tool-runtime": {
+            "default": "./dist/plugin-sdk/agent-harness-tool-runtime.js"
+          },
+          "./plugin-sdk/hook-runtime": {
+            "types": "./dist/plugin-sdk/hook-runtime.d.ts",
+            "default": "./dist/plugin-sdk/hook-runtime.js"
+          },
+          "./plugin-sdk/html-entity-runtime": {
+            "default": "./dist/plugin-sdk/html-entity-runtime.js"
+          },
+          "./plugin-sdk/host-runtime": {
+            "default": "./dist/plugin-sdk/host-runtime.js"
+          },
+          "./plugin-sdk/types": {
+            "default": "./dist/plugin-sdk/types.js"
+          },
+          "./plugin-sdk/process-runtime": {
+            "default": "./dist/plugin-sdk/process-runtime.js"
+          },
+          "./plugin-sdk/worker-task-server": {
+            "default": "./dist/plugin-sdk/worker-task-server.js"
+          },
+          "./plugin-sdk/windows-spawn": {
+            "default": "./dist/plugin-sdk/windows-spawn.js"
+          },
+          "./plugin-sdk/acp-runtime": {
+            "default": "./dist/plugin-sdk/acp-runtime.js"
+          },
+          "./plugin-sdk/acp-runtime-backend": {
+            "default": "./dist/plugin-sdk/acp-runtime-backend.js"
+          },
+          "./plugin-sdk/acp-binding-runtime": {
+            "default": "./dist/plugin-sdk/acp-binding-runtime.js"
+          },
+          "./plugin-sdk/acp-binding-resolve-runtime": {
+            "default": "./dist/plugin-sdk/acp-binding-resolve-runtime.js"
+          },
+          "./plugin-sdk/lazy-runtime": {
+            "types": "./dist/plugin-sdk/lazy-runtime.d.ts",
+            "default": "./dist/plugin-sdk/lazy-runtime.js"
+          },
+          "./plugin-sdk/temp-path": {
+            "types": "./dist/plugin-sdk/temp-path.d.ts",
+            "default": "./dist/plugin-sdk/temp-path.js"
+          },
+          "./plugin-sdk/time-runtime": {
+            "default": "./dist/plugin-sdk/time-runtime.js"
+          },
+          "./plugin-sdk/logging-core": {
+            "types": "./dist/plugin-sdk/logging-core.d.ts",
+            "default": "./dist/plugin-sdk/logging-core.js"
+          },
+          "./plugin-sdk/migration": {
+            "default": "./dist/plugin-sdk/migration.js"
+          },
+          "./plugin-sdk/migration-runtime": {
+            "default": "./dist/plugin-sdk/migration-runtime.js"
+          },
+          "./plugin-sdk/plugin-state-runtime": {
+            "default": "./dist/plugin-sdk/plugin-state-runtime.js"
+          },
+          "./plugin-sdk/markdown-table-runtime": {
+            "default": "./dist/plugin-sdk/markdown-table-runtime.js"
+          },
+          "./plugin-sdk/account-helpers": {
+            "types": "./dist/plugin-sdk/account-helpers.d.ts",
+            "default": "./dist/plugin-sdk/account-helpers.js"
+          },
+          "./plugin-sdk/account-core": {
+            "types": "./dist/plugin-sdk/account-core.d.ts",
+            "default": "./dist/plugin-sdk/account-core.js"
+          },
+          "./plugin-sdk/account-id": {
+            "types": "./dist/plugin-sdk/account-id.d.ts",
+            "default": "./dist/plugin-sdk/account-id.js"
+          },
+          "./plugin-sdk/account-resolution": {
+            "types": "./dist/plugin-sdk/account-resolution.d.ts",
+            "default": "./dist/plugin-sdk/account-resolution.js"
+          },
+          "./plugin-sdk/account-resolution-runtime": {
+            "default": "./dist/plugin-sdk/account-resolution-runtime.js"
+          },
+          "./plugin-sdk/access-groups": {
+            "default": "./dist/plugin-sdk/access-groups.js"
+          },
+          "./plugin-sdk/allow-from": {
+            "types": "./dist/plugin-sdk/allow-from.d.ts",
+            "default": "./dist/plugin-sdk/allow-from.js"
+          },
+          "./plugin-sdk/allowlist-config-edit": {
+            "types": "./dist/plugin-sdk/allowlist-config-edit.d.ts",
+            "default": "./dist/plugin-sdk/allowlist-config-edit.js"
+          },
+          "./plugin-sdk/browser-cdp": {
+            "default": "./dist/plugin-sdk/browser-cdp.js"
+          },
+          "./plugin-sdk/browser-config": {
+            "default": "./dist/plugin-sdk/browser-config.js"
+          },
+          "./plugin-sdk/boolean-param": {
+            "types": "./dist/plugin-sdk/boolean-param.d.ts",
+            "default": "./dist/plugin-sdk/boolean-param.js"
+          },
+          "./plugin-sdk/channel-dm-policy": {
+            "types": "./dist/plugin-sdk/channel-dm-policy.d.ts",
+            "default": "./dist/plugin-sdk/channel-dm-policy.js"
+          },
+          "./plugin-sdk/dangerous-name-runtime": {
+            "default": "./dist/plugin-sdk/dangerous-name-runtime.js"
+          },
+          "./plugin-sdk/command-auth": {
+            "types": "./dist/plugin-sdk/command-auth.d.ts",
+            "default": "./dist/plugin-sdk/command-auth.js"
+          },
+          "./plugin-sdk/command-auth-native": {
+            "types": "./dist/plugin-sdk/command-auth-native.d.ts",
+            "default": "./dist/plugin-sdk/command-auth-native.js"
+          },
+          "./plugin-sdk/command-primitives-runtime": {
+            "types": "./dist/plugin-sdk/command-primitives-runtime.d.ts",
+            "default": "./dist/plugin-sdk/command-primitives-runtime.js"
+          },
+          "./plugin-sdk/command-status": {
+            "types": "./dist/plugin-sdk/command-status.d.ts",
+            "default": "./dist/plugin-sdk/command-status.js"
+          },
+          "./plugin-sdk/command-status-runtime": {
+            "default": "./dist/plugin-sdk/command-status-runtime.js"
+          },
+          "./plugin-sdk/command-detection": {
+            "types": "./dist/plugin-sdk/command-detection.d.ts",
+            "default": "./dist/plugin-sdk/command-detection.js"
+          },
+          "./plugin-sdk/command-surface": {
+            "default": "./dist/plugin-sdk/command-surface.js"
+          },
+          "./plugin-sdk/collection-runtime": {
+            "types": "./dist/plugin-sdk/collection-runtime.d.ts",
+            "default": "./dist/plugin-sdk/collection-runtime.js"
+          },
+          "./plugin-sdk/direct-dm-guard-policy": {
+            "default": "./dist/plugin-sdk/direct-dm-guard-policy.js"
+          },
+          "./plugin-sdk/discord": {
+            "types": "./dist/plugin-sdk/discord.d.ts",
+            "default": "./dist/plugin-sdk/discord.js"
+          },
+          "./plugin-sdk/device-bootstrap": {
+            "types": "./dist/plugin-sdk/device-bootstrap.d.ts",
+            "default": "./dist/plugin-sdk/device-bootstrap.js"
+          },
+          "./plugin-sdk/diagnostic-flags": {
+            "types": "./dist/plugin-sdk/diagnostic-flags.d.ts",
+            "default": "./dist/plugin-sdk/diagnostic-flags.js"
+          },
+          "./plugin-sdk/diagnostic-runtime": {
+            "types": "./dist/plugin-sdk/diagnostic-runtime.d.ts",
+            "default": "./dist/plugin-sdk/diagnostic-runtime.js"
+          },
+          "./plugin-sdk/error-runtime": {
+            "types": "./dist/plugin-sdk/error-runtime.d.ts",
+            "default": "./dist/plugin-sdk/error-runtime.js"
+          },
+          "./plugin-sdk/extension-shared": {
+            "types": "./dist/plugin-sdk/extension-shared.d.ts",
+            "default": "./dist/plugin-sdk/extension-shared.js"
+          },
+          "./plugin-sdk/channel-config-helpers": {
+            "types": "./dist/plugin-sdk/channel-config-helpers.d.ts",
+            "default": "./dist/plugin-sdk/channel-config-helpers.js"
+          },
+          "./plugin-sdk/channel-config-ui-hints": {
+            "default": "./dist/plugin-sdk/channel-config-ui-hints.js"
+          },
+          "./plugin-sdk/channel-config-writes": {
+            "default": "./dist/plugin-sdk/channel-config-writes.js"
+          },
+          "./plugin-sdk/channel-config-primitives": {
+            "types": "./dist/plugin-sdk/channel-config-primitives.d.ts",
+            "default": "./dist/plugin-sdk/channel-config-primitives.js"
+          },
+          "./plugin-sdk/channel-config-schema": {
+            "types": "./dist/plugin-sdk/channel-config-schema.d.ts",
+            "default": "./dist/plugin-sdk/channel-config-schema.js"
+          },
+          "./plugin-sdk/bundled-channel-config-schema": {
+            "default": "./dist/plugin-sdk/bundled-channel-config-schema.js"
+          },
+          "./plugin-sdk/chat-channel-ids": {
+            "default": "./dist/plugin-sdk/chat-channel-ids.js"
+          },
+          "./plugin-sdk/channel-actions": {
+            "types": "./dist/plugin-sdk/channel-actions.d.ts",
+            "default": "./dist/plugin-sdk/channel-actions.js"
+          },
+          "./plugin-sdk/channel-plugin-common": {
+            "types": "./dist/plugin-sdk/channel-plugin-common.d.ts",
+            "default": "./dist/plugin-sdk/channel-plugin-common.js"
+          },
+          "./plugin-sdk/channel-core": {
+            "types": "./dist/plugin-sdk/channel-core.d.ts",
+            "default": "./dist/plugin-sdk/channel-core.js"
+          },
+          "./plugin-sdk/channel-entry-contract": {
+            "types": "./dist/plugin-sdk/channel-entry-contract.d.ts",
+            "default": "./dist/plugin-sdk/channel-entry-contract.js"
+          },
+          "./plugin-sdk/channel-contract": {
+            "types": "./dist/plugin-sdk/channel-contract.d.ts",
+            "default": "./dist/plugin-sdk/channel-contract.js"
+          },
+          "./plugin-sdk/channel-feedback": {
+            "types": "./dist/plugin-sdk/channel-feedback.d.ts",
+            "default": "./dist/plugin-sdk/channel-feedback.js"
+          },
+          "./plugin-sdk/channel-inbound": {
+            "types": "./dist/plugin-sdk/channel-inbound.d.ts",
+            "default": "./dist/plugin-sdk/channel-inbound.js"
+          },
+          "./plugin-sdk/channel-inbound-debounce": {
+            "types": "./dist/plugin-sdk/channel-inbound-debounce.d.ts",
+            "default": "./dist/plugin-sdk/channel-inbound-debounce.js"
+          },
+          "./plugin-sdk/channel-mention-gating": {
+            "default": "./dist/plugin-sdk/channel-mention-gating.js"
+          },
+          "./plugin-sdk/channel-lifecycle": {
+            "types": "./dist/plugin-sdk/channel-lifecycle.d.ts",
+            "default": "./dist/plugin-sdk/channel-lifecycle.js"
+          },
+          "./plugin-sdk/channel-ingress-runtime": {
+            "types": "./dist/plugin-sdk/channel-ingress-runtime.d.ts",
+            "default": "./dist/plugin-sdk/channel-ingress-runtime.js"
+          },
+          "./plugin-sdk/channel-message": {
+            "types": "./dist/plugin-sdk/channel-message.d.ts",
+            "default": "./dist/plugin-sdk/channel-message.js"
+          },
+          "./plugin-sdk/channel-outbound": {
+            "types": "./dist/plugin-sdk/channel-outbound.d.ts",
+            "default": "./dist/plugin-sdk/channel-outbound.js"
+          },
+          "./plugin-sdk/channel-pairing": {
+            "types": "./dist/plugin-sdk/channel-pairing.d.ts",
+            "default": "./dist/plugin-sdk/channel-pairing.js"
+          },
+          "./plugin-sdk/channel-policy": {
+            "types": "./dist/plugin-sdk/channel-policy.d.ts",
+            "default": "./dist/plugin-sdk/channel-policy.js"
+          },
+          "./plugin-sdk/channel-send-result": {
+            "types": "./dist/plugin-sdk/channel-send-result.d.ts",
+            "default": "./dist/plugin-sdk/channel-send-result.js"
+          },
+          "./plugin-sdk/channel-route": {
+            "default": "./dist/plugin-sdk/channel-route.js"
+          },
+          "./plugin-sdk/channel-targets": {
+            "default": "./dist/plugin-sdk/channel-targets.js"
+          },
+          "./plugin-sdk/context-visibility-runtime": {
+            "default": "./dist/plugin-sdk/context-visibility-runtime.js"
+          },
+          "./plugin-sdk/file-lock": {
+            "default": "./dist/plugin-sdk/file-lock.js"
+          },
+          "./plugin-sdk/fetch-runtime": {
+            "default": "./dist/plugin-sdk/fetch-runtime.js"
+          },
+          "./plugin-sdk/runtime-fetch": {
+            "default": "./dist/plugin-sdk/runtime-fetch.js"
+          },
+          "./plugin-sdk/inline-image-data-url-runtime": {
+            "default": "./dist/plugin-sdk/inline-image-data-url-runtime.js"
+          },
+          "./plugin-sdk/node-host": {
+            "default": "./dist/plugin-sdk/node-host.js"
+          },
+          "./plugin-sdk/computer-use": {
+            "types": "./dist/plugin-sdk/computer-use.d.ts",
+            "default": "./dist/plugin-sdk/computer-use.js"
+          },
+          "./plugin-sdk/response-limit-runtime": {
+            "default": "./dist/plugin-sdk/response-limit-runtime.js"
+          },
+          "./plugin-sdk/session-binding-runtime": {
+            "default": "./dist/plugin-sdk/session-binding-runtime.js"
+          },
+          "./plugin-sdk/session-catalog": {
+            "types": "./dist/plugin-sdk/session-catalog.d.ts",
+            "default": "./dist/plugin-sdk/session-catalog.js"
+          },
+          "./plugin-sdk/session-catalog-paging": {
+            "default": "./dist/plugin-sdk/session-catalog-paging.js"
+          },
+          "./plugin-sdk/session-catalog-runtime": {
+            "default": "./dist/plugin-sdk/session-catalog-runtime.js"
+          },
+          "./plugin-sdk/session-discussion": {
+            "types": "./dist/plugin-sdk/session-discussion.d.ts",
+            "default": "./dist/plugin-sdk/session-discussion.js"
+          },
+          "./plugin-sdk/session-key-runtime": {
+            "default": "./dist/plugin-sdk/session-key-runtime.js"
+          },
+          "./plugin-sdk/session-store-runtime": {
+            "types": "./dist/plugin-sdk/session-store-runtime.d.ts",
+            "default": "./dist/plugin-sdk/session-store-runtime.js"
+          },
+          "./plugin-sdk/session-transcript-runtime": {
+            "default": "./dist/plugin-sdk/session-transcript-runtime.js"
+          },
+          "./plugin-sdk/sqlite-runtime": {
+            "default": "./dist/plugin-sdk/sqlite-runtime.js"
+          },
+          "./plugin-sdk/sqlite-worker-runtime": {
+            "default": "./dist/plugin-sdk/sqlite-worker-runtime.js"
+          },
+          "./plugin-sdk/session-transcript-hit": {
+            "default": "./dist/plugin-sdk/session-transcript-hit.js"
+          },
+          "./plugin-sdk/session-visibility": {
+            "default": "./dist/plugin-sdk/session-visibility.js"
+          },
+          "./plugin-sdk/ssrf-dispatcher": {
+            "default": "./dist/plugin-sdk/ssrf-dispatcher.js"
+          },
+          "./plugin-sdk/string-coerce-runtime": {
+            "types": "./dist/plugin-sdk/string-coerce-runtime.d.ts",
+            "default": "./dist/plugin-sdk/string-coerce-runtime.js"
+          },
+          "./plugin-sdk/group-activation": {
+            "default": "./dist/plugin-sdk/group-activation.js"
+          },
+          "./plugin-sdk/global-singleton": {
+            "default": "./dist/plugin-sdk/global-singleton.js"
+          },
+          "./plugin-sdk/directory-config-runtime": {
+            "default": "./dist/plugin-sdk/directory-config-runtime.js"
+          },
+          "./plugin-sdk/directory-runtime": {
+            "types": "./dist/plugin-sdk/directory-runtime.d.ts",
+            "default": "./dist/plugin-sdk/directory-runtime.js"
+          },
+          "./plugin-sdk/image-generation": {
+            "default": "./dist/plugin-sdk/image-generation.js"
+          },
+          "./plugin-sdk/image-generation-runtime": {
+            "default": "./dist/plugin-sdk/image-generation-runtime.js"
+          },
+          "./plugin-sdk/image-generation-core": {
+            "default": "./dist/plugin-sdk/image-generation-core.js"
+          },
+          "./plugin-sdk/music-generation": {
+            "default": "./dist/plugin-sdk/music-generation.js"
+          },
+          "./plugin-sdk/video-generation": {
+            "default": "./dist/plugin-sdk/video-generation.js"
+          },
+          "./plugin-sdk/video-generation-runtime": {
+            "default": "./dist/plugin-sdk/video-generation-runtime.js"
+          },
+          "./plugin-sdk/reply-history": {
+            "types": "./dist/plugin-sdk/reply-history.d.ts",
+            "default": "./dist/plugin-sdk/reply-history.js"
+          },
+          "./plugin-sdk/realtime-transcription": {
+            "default": "./dist/plugin-sdk/realtime-transcription.js"
+          },
+          "./plugin-sdk/realtime-transcription-session": {
+            "default": "./dist/plugin-sdk/realtime-transcription-session.js"
+          },
+          "./plugin-sdk/realtime-bootstrap-context": {
+            "default": "./dist/plugin-sdk/realtime-bootstrap-context.js"
+          },
+          "./plugin-sdk/realtime-voice-audio-queue": {
+            "default": "./dist/plugin-sdk/realtime-voice-audio-queue.js"
+          },
+          "./plugin-sdk/realtime-voice-activation": {
+            "default": "./dist/plugin-sdk/realtime-voice-activation.js"
+          },
+          "./plugin-sdk/realtime-voice": {
+            "default": "./dist/plugin-sdk/realtime-voice.js"
+          },
+          "./plugin-sdk/realtime-voice-playback": {
+            "default": "./dist/plugin-sdk/realtime-voice-playback.js"
+          },
+          "./plugin-sdk/realtime-voice-provider": {
+            "default": "./dist/plugin-sdk/realtime-voice-provider.js"
+          },
+          "./plugin-sdk/meeting-page-script-runtime": {
+            "default": "./dist/plugin-sdk/meeting-page-script-runtime.js"
+          },
+          "./plugin-sdk/meeting-runtime": {
+            "types": "./dist/plugin-sdk/meeting-runtime.d.ts",
+            "default": "./dist/plugin-sdk/meeting-runtime.js"
+          },
+          "./plugin-sdk/transcripts": {
+            "default": "./dist/plugin-sdk/transcripts.js"
+          },
+          "./plugin-sdk/media-understanding": {
+            "types": "./dist/plugin-sdk/media-understanding.d.ts",
+            "default": "./dist/plugin-sdk/media-understanding.js"
+          },
+          "./plugin-sdk/media-understanding-runtime": {
+            "types": "./dist/plugin-sdk/media-understanding-runtime.d.ts",
+            "default": "./dist/plugin-sdk/media-understanding-runtime.js"
+          },
+          "./plugin-sdk/request-url": {
+            "default": "./dist/plugin-sdk/request-url.js"
+          },
+          "./plugin-sdk/runtime-store": {
+            "types": "./dist/plugin-sdk/runtime-store.d.ts",
+            "default": "./dist/plugin-sdk/runtime-store.js"
+          },
+          "./plugin-sdk/json-store": {
+            "types": "./dist/plugin-sdk/json-store.d.ts",
+            "default": "./dist/plugin-sdk/json-store.js"
+          },
+          "./plugin-sdk/persistent-dedupe": {
+            "types": "./dist/plugin-sdk/persistent-dedupe.d.ts",
+            "default": "./dist/plugin-sdk/persistent-dedupe.js"
+          },
+          "./plugin-sdk/ingress-effect-once": {
+            "types": "./dist/plugin-sdk/ingress-effect-once.d.ts",
+            "default": "./dist/plugin-sdk/ingress-effect-once.js"
+          },
+          "./plugin-sdk/keyed-async-queue": {
+            "default": "./dist/plugin-sdk/keyed-async-queue.js"
+          },
+          "./plugin-sdk/qa-runner-runtime": {
+            "default": "./dist/plugin-sdk/qa-runner-runtime.js"
+          },
+          "./plugin-sdk/memory-core-host-embedding-registry": {
+            "default": "./dist/plugin-sdk/memory-core-host-embedding-registry.js"
+          },
+          "./plugin-sdk/memory-core-host-engine-embeddings": {
+            "default": "./dist/plugin-sdk/memory-core-host-engine-embeddings.js"
+          },
+          "./plugin-sdk/memory-core-host-engine-curated": {
+            "default": "./dist/plugin-sdk/memory-core-host-engine-curated.js"
+          },
+          "./plugin-sdk/memory-core-host-engine-foundation": {
+            "types": "./dist/plugin-sdk/memory-core-host-engine-foundation.d.ts",
+            "default": "./dist/plugin-sdk/memory-core-host-engine-foundation.js"
+          },
+          "./plugin-sdk/memory-core-host-engine-indexing": {
+            "default": "./dist/plugin-sdk/memory-core-host-engine-indexing.js"
+          },
+          "./plugin-sdk/memory-core-host-engine-knn": {
+            "default": "./dist/plugin-sdk/memory-core-host-engine-knn.js"
+          },
+          "./plugin-sdk/memory-core-host-engine-fs": {
+            "default": "./dist/plugin-sdk/memory-core-host-engine-fs.js"
+          },
+          "./plugin-sdk/memory-core-host-engine-sessions": {
+            "default": "./dist/plugin-sdk/memory-core-host-engine-sessions.js"
+          },
+          "./plugin-sdk/memory-core-host-engine-schema": {
+            "default": "./dist/plugin-sdk/memory-core-host-engine-schema.js"
+          },
+          "./plugin-sdk/memory-core-host-engine-storage": {
+            "default": "./dist/plugin-sdk/memory-core-host-engine-storage.js"
+          },
+          "./plugin-sdk/memory-core-host-secret": {
+            "default": "./dist/plugin-sdk/memory-core-host-secret.js"
+          },
+          "./plugin-sdk/memory-core-host-status": {
+            "default": "./dist/plugin-sdk/memory-core-host-status.js"
+          },
+          "./plugin-sdk/memory-core-host-runtime-cli": {
+            "default": "./dist/plugin-sdk/memory-core-host-runtime-cli.js"
+          },
+          "./plugin-sdk/memory-core-host-runtime-core": {
+            "default": "./dist/plugin-sdk/memory-core-host-runtime-core.js"
+          },
+          "./plugin-sdk/memory-core-host-runtime-files": {
+            "default": "./dist/plugin-sdk/memory-core-host-runtime-files.js"
+          },
+          "./plugin-sdk/memory-host-core": {
+            "types": "./dist/plugin-sdk/memory-host-core.d.ts",
+            "default": "./dist/plugin-sdk/memory-host-core.js"
+          },
+          "./plugin-sdk/memory-host-events": {
+            "default": "./dist/plugin-sdk/memory-host-events.js"
+          },
+          "./plugin-sdk/memory-host-markdown": {
+            "default": "./dist/plugin-sdk/memory-host-markdown.js"
+          },
+          "./plugin-sdk/memory-host-search": {
+            "default": "./dist/plugin-sdk/memory-host-search.js"
+          },
+          "./plugin-sdk/message-tool-delivery-hints": {
+            "default": "./dist/plugin-sdk/message-tool-delivery-hints.js"
+          },
+          "./plugin-sdk/models-provider-runtime": {
+            "types": "./dist/plugin-sdk/models-provider-runtime.d.ts",
+            "default": "./dist/plugin-sdk/models-provider-runtime.js"
+          },
+          "./plugin-sdk/skill-commands-runtime": {
+            "types": "./dist/plugin-sdk/skill-commands-runtime.d.ts",
+            "default": "./dist/plugin-sdk/skill-commands-runtime.js"
+          },
+          "./plugin-sdk/native-command-config-runtime": {
+            "types": "./dist/plugin-sdk/native-command-config-runtime.d.ts",
+            "default": "./dist/plugin-sdk/native-command-config-runtime.js"
+          },
+          "./plugin-sdk/native-command-registry": {
+            "types": "./dist/plugin-sdk/native-command-registry.d.ts",
+            "default": "./dist/plugin-sdk/native-command-registry.js"
+          },
+          "./plugin-sdk/provider-auth": {
+            "types": "./dist/plugin-sdk/provider-auth.d.ts",
+            "default": "./dist/plugin-sdk/provider-auth.js"
+          },
+          "./plugin-sdk/provider-auth-aliases": {
+            "default": "./dist/plugin-sdk/provider-auth-aliases.js"
+          },
+          "./plugin-sdk/provider-oauth-runtime": {
+            "default": "./dist/plugin-sdk/provider-oauth-runtime.js"
+          },
+          "./plugin-sdk/provider-auth-runtime": {
+            "default": "./dist/plugin-sdk/provider-auth-runtime.js"
+          },
+          "./plugin-sdk/provider-auth-login-flow-runtime": {
+            "default": "./dist/plugin-sdk/provider-auth-login-flow-runtime.js"
+          },
+          "./plugin-sdk/provider-auth-api-key": {
+            "default": "./dist/plugin-sdk/provider-auth-api-key.js"
+          },
+          "./plugin-sdk/provider-auth-result": {
+            "default": "./dist/plugin-sdk/provider-auth-result.js"
+          },
+          "./plugin-sdk/provider-selection-runtime": {
+            "default": "./dist/plugin-sdk/provider-selection-runtime.js"
+          },
+          "./plugin-sdk/plugin-entry": {
+            "types": "./dist/plugin-sdk/plugin-entry.d.ts",
+            "default": "./dist/plugin-sdk/plugin-entry.js"
+          },
+          "./plugin-sdk/provider-catalog-live-runtime": {
+            "default": "./dist/plugin-sdk/provider-catalog-live-runtime.js"
+          },
+          "./plugin-sdk/provider-catalog-runtime": {
+            "types": "./dist/plugin-sdk/provider-catalog-runtime.d.ts",
+            "default": "./dist/plugin-sdk/provider-catalog-runtime.js"
+          },
+          "./plugin-sdk/provider-catalog-shared": {
+            "default": "./dist/plugin-sdk/provider-catalog-shared.js"
+          },
+          "./plugin-sdk/provider-entry": {
+            "default": "./dist/plugin-sdk/provider-entry.js"
+          },
+          "./plugin-sdk/provider-env-vars": {
+            "default": "./dist/plugin-sdk/provider-env-vars.js"
+          },
+          "./plugin-sdk/provider-http": {
+            "default": "./dist/plugin-sdk/provider-http.js"
+          },
+          "./plugin-sdk/provider-binary-stream": {
+            "types": "./dist/plugin-sdk/provider-binary-stream.d.ts",
+            "default": "./dist/plugin-sdk/provider-binary-stream.js"
+          },
+          "./plugin-sdk/provider-model-types": {
+            "default": "./dist/plugin-sdk/provider-model-types.js"
+          },
+          "./plugin-sdk/provider-model-metadata": {
+            "default": "./dist/plugin-sdk/provider-model-metadata.js"
+          },
+          "./plugin-sdk/provider-model-shared": {
+            "default": "./dist/plugin-sdk/provider-model-shared.js"
+          },
+          "./plugin-sdk/provider-onboard": {
+            "default": "./dist/plugin-sdk/provider-onboard.js"
+          },
+          "./plugin-sdk/provider-stream-family": {
+            "default": "./dist/plugin-sdk/provider-stream-family.js"
+          },
+          "./plugin-sdk/provider-stream-shared": {
+            "default": "./dist/plugin-sdk/provider-stream-shared.js"
+          },
+          "./plugin-sdk/provider-thinking-runtime": {
+            "default": "./dist/plugin-sdk/provider-thinking-runtime.js"
+          },
+          "./plugin-sdk/provider-transport-runtime": {
+            "default": "./dist/plugin-sdk/provider-transport-runtime.js"
+          },
+          "./plugin-sdk/provider-stream": {
+            "default": "./dist/plugin-sdk/provider-stream.js"
+          },
+          "./plugin-sdk/provider-tools": {
+            "default": "./dist/plugin-sdk/provider-tools.js"
+          },
+          "./plugin-sdk/provider-usage": {
+            "default": "./dist/plugin-sdk/provider-usage.js"
+          },
+          "./plugin-sdk/document-extractor": {
+            "default": "./dist/plugin-sdk/document-extractor.js"
+          },
+          "./plugin-sdk/web-content-extractor": {
+            "default": "./dist/plugin-sdk/web-content-extractor.js"
+          },
+          "./plugin-sdk/provider-web-fetch-contract": {
+            "default": "./dist/plugin-sdk/provider-web-fetch-contract.js"
+          },
+          "./plugin-sdk/provider-web-fetch": {
+            "default": "./dist/plugin-sdk/provider-web-fetch.js"
+          },
+          "./plugin-sdk/provider-web-search-config-contract": {
+            "default": "./dist/plugin-sdk/provider-web-search-config-contract.js"
+          },
+          "./plugin-sdk/provider-web-search-contract": {
+            "default": "./dist/plugin-sdk/provider-web-search-contract.js"
+          },
+          "./plugin-sdk/provider-web-search": {
+            "default": "./dist/plugin-sdk/provider-web-search.js"
+          },
+          "./plugin-sdk/retry-runtime": {
+            "default": "./dist/plugin-sdk/retry-runtime.js"
+          },
+          "./plugin-sdk/run-command": {
+            "types": "./dist/plugin-sdk/run-command.d.ts",
+            "default": "./dist/plugin-sdk/run-command.js"
+          },
+          "./plugin-sdk/param-readers": {
+            "types": "./dist/plugin-sdk/param-readers.d.ts",
+            "default": "./dist/plugin-sdk/param-readers.js"
+          },
+          "./plugin-sdk/secret-input": {
+            "types": "./dist/plugin-sdk/secret-input.d.ts",
+            "default": "./dist/plugin-sdk/secret-input.js"
+          },
+          "./plugin-sdk/secret-input-runtime": {
+            "types": "./dist/plugin-sdk/secret-input-runtime.d.ts",
+            "default": "./dist/plugin-sdk/secret-input-runtime.js"
+          },
+          "./plugin-sdk/decisions": {
+            "types": "./dist/plugin-sdk/decisions.d.ts",
+            "default": "./dist/plugin-sdk/decisions.js"
+          },
+          "./plugin-sdk/secret-ref-readonly": {
+            "types": "./dist/plugin-sdk/secret-ref-readonly.d.ts",
+            "default": "./dist/plugin-sdk/secret-ref-readonly.js"
+          },
+          "./plugin-sdk/channel-status": {
+            "types": "./dist/plugin-sdk/channel-status.d.ts",
+            "default": "./dist/plugin-sdk/channel-status.js"
+          },
+          "./plugin-sdk/status-helpers": {
+            "types": "./dist/plugin-sdk/status-helpers.d.ts",
+            "default": "./dist/plugin-sdk/status-helpers.js"
+          },
+          "./plugin-sdk/speech": {
+            "default": "./dist/plugin-sdk/speech.js"
+          },
+          "./plugin-sdk/string-normalization-runtime": {
+            "default": "./dist/plugin-sdk/string-normalization-runtime.js"
+          },
+          "./plugin-sdk/state-paths": {
+            "types": "./dist/plugin-sdk/state-paths.d.ts",
+            "default": "./dist/plugin-sdk/state-paths.js"
+          },
+          "./plugin-sdk/target-resolver-runtime": {
+            "default": "./dist/plugin-sdk/target-resolver-runtime.js"
+          },
+          "./plugin-sdk/telegram-account": {
+            "types": "./dist/plugin-sdk/telegram-account.d.ts",
+            "default": "./dist/plugin-sdk/telegram-account.js"
+          },
+          "./plugin-sdk/text-autolink-runtime": {
+            "default": "./dist/plugin-sdk/text-autolink-runtime.js"
+          },
+          "./plugin-sdk/text-grapheme": {
+            "default": "./dist/plugin-sdk/text-grapheme.js"
+          },
+          "./plugin-sdk/text-utility-runtime": {
+            "default": "./dist/plugin-sdk/text-utility-runtime.js"
+          },
+          "./plugin-sdk/widget-html": {
+            "types": "./dist/plugin-sdk/widget-html.d.ts",
+            "default": "./dist/plugin-sdk/widget-html.js"
+          },
+          "./plugin-sdk/control-ui": {
+            "types": "./dist/plugin-sdk/control-ui.d.ts",
+            "default": "./dist/plugin-sdk/control-ui.js"
+          },
+          "./plugin-sdk/feature-contract": {
+            "types": "./dist/plugin-sdk/feature-contract.d.ts",
+            "default": "./dist/plugin-sdk/feature-contract.js"
+          },
+          "./plugin-sdk/feature-plugin": {
+            "types": "./dist/plugin-sdk/feature-plugin.d.ts",
+            "default": "./dist/plugin-sdk/feature-plugin.js"
+          },
+          "./plugin-sdk/tool-plugin": {
+            "types": "./dist/plugin-sdk/tool-plugin.d.ts",
+            "default": "./dist/plugin-sdk/tool-plugin.js"
+          },
+          "./plugin-sdk/tool-payload": {
+            "default": "./dist/plugin-sdk/tool-payload.js"
+          },
+          "./plugin-sdk/tool-results": {
+            "types": "./dist/plugin-sdk/tool-results.d.ts",
+            "default": "./dist/plugin-sdk/tool-results.js"
+          },
+          "./plugin-sdk/tool-send": {
+            "types": "./dist/plugin-sdk/tool-send.d.ts",
+            "default": "./dist/plugin-sdk/tool-send.js"
+          },
+          "./plugin-sdk/webhook-ingress": {
+            "types": "./dist/plugin-sdk/webhook-ingress.d.ts",
+            "default": "./dist/plugin-sdk/webhook-ingress.js"
+          },
+          "./plugin-sdk/webhook-targets": {
+            "default": "./dist/plugin-sdk/webhook-targets.js"
+          },
+          "./plugin-sdk/webhook-request-guards": {
+            "types": "./dist/plugin-sdk/webhook-request-guards.d.ts",
+            "default": "./dist/plugin-sdk/webhook-request-guards.js"
+          },
+          "./plugin-sdk/web-media": {
+            "types": "./dist/plugin-sdk/web-media.d.ts",
+            "default": "./dist/plugin-sdk/web-media.js"
+          },
+          "./plugin-sdk/agent-core": {
+            "default": "./dist/plugin-sdk/agent-core.js"
+          },
+          "./plugin-sdk/agent-sessions": {
+            "default": "./dist/plugin-sdk/agent-sessions.js"
+          },
+          "./plugin-sdk/llm": {
+            "default": "./dist/plugin-sdk/llm.js"
+          },
+          "./cli-entry": "./openclaw.mjs"
+        }
+      },
+      "package_scripts": [
+        "android:assemble",
+        "android:assemble:third-party",
+        "android:bundle:release",
+        "android:format",
+        "android:i18n:check",
+        "android:install",
+        "android:install:third-party",
+        "android:lint",
+        "android:lint:android",
+        "android:release",
+        "android:release:archive",
+        "android:release:auth:check",
+        "android:release:metadata",
+        "android:release:preflight",
+        "android:release:signing:check",
+        "android:release:signing:plan",
+        "android:release:signing:sync:pull",
+        "android:release:signing:sync:push",
+        "android:release:upload",
+        "android:run",
+        "android:run:third-party",
+        "android:screenshots",
+        "android:test",
+        "android:test:integration",
+        "android:test:third-party",
+        "android:version",
+        "android:version:check",
+        "android:version:pin",
+        "android:version:sync",
+        "apple:i18n:check",
+        "audit:seams",
+        "bench:plugins:invocation",
+        "bench:usage-refresh-memory",
+        "build",
+        "build:ci-artifacts",
+        "build:docker",
+        "build:package",
+        "build:plugin-sdk:dts",
+        "build:plugin-sdk:strict-smoke",
+        "build:strict-smoke",
+        "canvas:a2ui:bundle",
+        "changed:lanes",
+        "changelog:check",
+        "changelog:from-docs",
+        "changelog:split",
+        "channels:catalog:check",
+        "channels:catalog:gen",
+        "check",
+        "check:architecture",
+        "check:assertion-safety",
+        "check:base-config-schema",
+        "check:browser-inspect-script:swift",
+        "check:bundled-channel-config-metadata",
+        "check:changed",
+        "check:changelog-attributions",
+        "check:coercion-helpers",
+        "check:database-first-legacy-stores",
+        "check:deprecated-api-usage",
+        "check:deprecated-jsdoc",
+        "check:docs",
+        "check:doctor-deprecation-registry",
+        "check:env-var-count",
+        "check:host-env-policy:swift",
+        "check:import-cycles",
+        "check:line-cap-ratchet",
+        "check:madge-import-cycles",
+        "check:max-lines-ratchet",
+        "check:media-download-helpers",
+        "check:no-conflict-markers",
+        "check:no-runtime-action-load-config",
+        "check:opengrep-rule-metadata",
+        "check:protocol-coverage",
+        "check:runtime-sidecar-loaders",
+        "check:script-erasability",
+        "check:static-import-sccs",
+        "check:temp-path-guardrails",
+        "check:test-types",
+        "check:timed",
+        "check:timed:all-types",
+        "check:timed:architecture",
+        "check:workflows",
+        "check:wrapper-shadowing",
+        "ci:full-release",
+        "ci:git-owner:check",
+        "ci:git-owner:gen",
+        "ci:timings",
+        "ci:timings:recent",
+        "ci:timings:refit",
+        "ci:timings:trend",
+        "clean:dist",
+        "codex-app-server:protocol:check",
+        "codex-app-server:protocol:sync",
+        "codex-supervisor:mcp",
+        "codex:mcp",
+        "config:channels:check",
+        "config:channels:gen",
+        "config:docs:check",
+        "config:docs:gen",
+        "config:schema:check",
+        "config:schema:gen",
+        "crabbox:hydrate",
+        "crabbox:run",
+        "crabbox:stop",
+        "crabbox:warmup",
+        "db:kysely:check",
+        "db:kysely:gen",
+        "db:worker-inventory:check",
+        "db:worker-inventory:gen",
+        "deadcode:dependencies",
+        "deadcode:exports",
+        "deadcode:full",
+        "deadcode:knip",
+        "deadcode:report",
+        "deadcode:unused-files",
+        "deps:changes:report",
+        "deps:npm-lock:check",
+        "deps:npm-lock:check:changed",
+        "deps:npm-lock:report",
+        "deps:ownership-surface:check",
+        "deps:ownership-surface:report",
+        "deps:patches:check",
+        "deps:pins:check",
+        "deps:root-ownership",
+        "deps:root-ownership:check",
+        "deps:transitive-risk:report",
+        "deps:vuln:gate",
+        "dev",
+        "dev:ui:mock",
+        "docs:check-config-examples",
+        "docs:check-i18n-glossary",
+        "docs:check-links",
+        "docs:check-links:anchors",
+        "docs:check-mdx",
+        "docs:dev",
+        "docs:list",
+        "docs:map:gen",
+        "docs:spellcheck",
+        "docs:spellcheck:fix",
+        "dup:check",
+        "dup:check:coverage",
+        "dup:check:json",
+        "format",
+        "format:all",
+        "format:check",
+        "format:diff",
+        "format:docs",
+        "format:docs:check",
+        "format:fix",
+        "format:swift",
+        "frv",
+        "gateway:dev",
+        "gateway:dev:reset",
+        "gateway:watch",
+        "gateway:watch:raw",
+        "gen:browser-inspect-script:swift",
+        "gen:host-env-policy:swift",
+        "ghsa:patch",
+        "ios:app-review-notes:pdf",
+        "ios:build",
+        "ios:filelist:gen",
+        "ios:gen",
+        "ios:open",
+        "ios:release:archive",
+        "ios:release:cut",
+        "ios:release:plan",
+        "ios:release:prepare",
+        "ios:release:signing:check",
+        "ios:release:signing:plan",
+        "ios:release:signing:setup",
+        "ios:release:signing:sync:pull",
+        "ios:release:signing:sync:push",
+        "ios:release:upload",
+        "ios:run",
+        "ios:screenshots",
+        "ios:version",
+        "ios:version:check",
+        "ios:version:sync",
+        "leak:embedded-run",
+        "leak:embedded-run:liveness",
+        "lint",
+        "lint:agent:ingress-owner",
+        "lint:all",
+        "lint:apps",
+        "lint:auth:no-pairing-store-group",
+        "lint:auth:pairing-account-scope",
+        "lint:core",
+        "lint:docker-e2e",
+        "lint:docs",
+        "lint:docs:fix",
+        "lint:extensions",
+        "lint:extensions:no-deprecated-channel-access",
+        "lint:extensions:no-guarded-wildcard-reexports",
+        "lint:extensions:no-normalization-core-bypass",
+        "lint:extensions:no-plugin-sdk-wildcard-reexports",
+        "lint:extensions:no-relative-outside-package",
+        "lint:extensions:no-src-outside-plugin-sdk",
+        "lint:extensions:telegram-grammy-types",
+        "lint:fix",
+        "lint:kysely",
+        "lint:no-chained-type-assertions",
+        "lint:no-widen-then-assert",
+        "lint:plugins:no-extension-imports",
+        "lint:plugins:no-extension-src-imports",
+        "lint:plugins:no-extension-test-core-imports",
+        "lint:plugins:no-monolithic-plugin-sdk-entry-imports",
+        "lint:plugins:no-register-http-handler",
+        "lint:plugins:plugin-sdk-subpaths-exported",
+        "lint:scripts",
+        "lint:swift",
+        "lint:templates",
+        "lint:templates:fix",
+        "lint:tmp:channel-agnostic-boundaries",
+        "lint:tmp:dynamic-import-warts",
+        "lint:tmp:export-name-collisions",
+        "lint:tmp:no-random-messaging",
+        "lint:tmp:no-raw-channel-fetch",
+        "lint:tmp:no-raw-http2-imports",
+        "lint:tmp:session-accessor-boundary",
+        "lint:tmp:session-accessor-boundary:gen",
+        "lint:tmp:session-transcript-reader-boundary",
+        "lint:tmp:sqlite-transaction-boundary",
+        "lint:tmp:tsgo-core-boundary",
+        "lint:ui:i18n",
+        "lint:ui:lit",
+        "lint:ui:no-raw-window-open",
+        "lint:ui:styles",
+        "lint:web-fetch-provider-boundaries",
+        "lint:webhook:no-low-level-body-read",
+        "mac:open",
+        "mac:package",
+        "mac:restart",
+        "maturity:check",
+        "maturity:render",
+        "mobile:release:preflight",
+        "mobile:release:record",
+        "mobile:release:resolve",
+        "native-catalogs:check",
+        "native-catalogs:gen",
+        "native:i18n:baseline",
+        "native:i18n:check",
+        "native:i18n:sync",
+        "native:i18n:verify",
+        "openclaw",
+        "openclaw:rpc",
+        "perf:kova:summary",
+        "perf:redaction",
+        "perf:source:summary",
+        "perf:web-fetch",
+        "perf:write-diff",
+        "plugin-sdk:api:diff",
+        "plugin-sdk:check-exports",
+        "plugin-sdk:surface",
+        "plugin-sdk:surface:check",
+        "plugin-sdk:sync-exports",
+        "plugin-sdk:usage",
+        "plugins:assets:build",
+        "plugins:assets:check",
+        "plugins:assets:copy",
+        "plugins:boundary-report",
+        "plugins:boundary-report:ci",
+        "plugins:boundary-report:json",
+        "plugins:boundary-report:summary",
+        "plugins:inventory:check",
+        "plugins:inventory:gen",
+        "plugins:inventory:json",
+        "plugins:sync",
+        "plugins:sync:check",
+        "pnpm:devPreinstall",
+        "policy:config-coverage",
+        "postinstall",
+        "postpack",
+        "preinstall",
+        "prepack",
+        "prepare",
+        "prepush:ci",
+        "probe:anthropic:prompt",
+        "prompt:snapshots:check",
+        "prompt:snapshots:gen",
+        "prompt:snapshots:sync-codex-model",
+        "protocol-registry:check",
+        "protocol:check",
+        "protocol:check:kotlin",
+        "protocol:check:swift",
+        "protocol:gen",
+        "protocol:gen:kotlin",
+        "protocol:gen:swift",
+        "proxy:coverage",
+        "proxy:gateway",
+        "proxy:install-ca",
+        "proxy:run",
+        "proxy:start",
+        "qa:code-mode-models",
+        "qa:e2e",
+        "qa:lab:build",
+        "qa:lab:ui",
+        "qa:lab:up",
+        "qa:lab:up:fast",
+        "qa:lab:watch",
+        "qa:observability:collector-smoke",
+        "qa:observability:smoke",
+        "qa:otel:collector-smoke",
+        "qa:otel:smoke",
+        "qa:prometheus:smoke",
+        "release-metadata:check",
+        "release:beta",
+        "release:beta-smoke",
+        "release:candidate",
+        "release:check",
+        "release:fast-pretag-check",
+        "release:generated:check",
+        "release:openclaw:npm:check",
+        "release:openclaw:npm:verify-published",
+        "release:plugins:clawhub:check",
+        "release:plugins:clawhub:plan",
+        "release:plugins:npm:check",
+        "release:plugins:npm:plan",
+        "release:prep",
+        "release:prep:version",
+        "release:prepare",
+        "release:publish-preflight",
+        "release:verify-beta",
+        "release:version",
+        "runtime-sidecars:check",
+        "runtime-sidecars:gen",
+        "sqlite:sessions-schema:check",
+        "sqlite:sessions-schema:gen",
+        "start",
+        "test",
+        "test:agents:concurrency",
+        "test:all",
+        "test:auth:compat",
+        "test:build:singleton",
+        "test:build:status-message-runtime",
+        "test:bundled",
+        "test:changed",
+        "test:changed:max",
+        "test:channels",
+        "test:cli-response:contract",
+        "test:contracts",
+        "test:contracts:channels",
+        "test:contracts:plugins",
+        "test:coverage",
+        "test:coverage:changed",
+        "test:docker:agent-bundle-mcp-tools",
+        "test:docker:agents-delete-shared-workspace",
+        "test:docker:all",
+        "test:docker:browser-cdp-snapshot",
+        "test:docker:bundled-plugin-install-uninstall",
+        "test:docker:cleanup",
+        "test:docker:cli-installer-distribution",
+        "test:docker:codex-media-path",
+        "test:docker:codex-on-demand",
+        "test:docker:compose-setup",
+        "test:docker:config-reload",
+        "test:docker:cron-cli",
+        "test:docker:cron-mcp-cleanup",
+        "test:docker:doctor-switch",
+        "test:docker:e2e-build",
+        "test:docker:fleet-cache",
+        "test:docker:gateway-network",
+        "test:docker:kitchen-sink-plugin",
+        "test:docker:kitchen-sink-rpc",
+        "test:docker:live-acp-bind",
+        "test:docker:live-acp-bind:claude",
+        "test:docker:live-acp-bind:codex",
+        "test:docker:live-acp-bind:droid",
+        "test:docker:live-acp-bind:gemini",
+        "test:docker:live-acp-bind:opencode",
+        "test:docker:live-anthropic-cache",
+        "test:docker:live-build",
+        "test:docker:live-cli-backend",
+        "test:docker:live-cli-backend:claude",
+        "test:docker:live-cli-backend:claude-subscription",
+        "test:docker:live-cli-backend:claude:cache",
+        "test:docker:live-cli-backend:claude:mcp",
+        "test:docker:live-cli-backend:claude:resume",
+        "test:docker:live-cli-backend:gemini",
+        "test:docker:live-cli-backend:gemini:mcp",
+        "test:docker:live-cli-backend:gemini:resume",
+        "test:docker:live-codex-bind",
+        "test:docker:live-codex-harness",
+        "test:docker:live-codex-media-path",
+        "test:docker:live-codex-npm-plugin",
+        "test:docker:live-gateway",
+        "test:docker:live-gateway:claude",
+        "test:docker:live-gateway:gemini",
+        "test:docker:live-mcp-code-mode-gateway",
+        "test:docker:live-models",
+        "test:docker:live-models:claude",
+        "test:docker:live-models:gemini",
+        "test:docker:live-plugin-tool",
+        "test:docker:live-subagent-announce",
+        "test:docker:live:all",
+        "test:docker:local:all",
+        "test:docker:mcp-channels",
+        "test:docker:mcp-code-mode-gateway",
+        "test:docker:multi-node-update",
+        "test:docker:npm-onboard-channel-agent",
+        "test:docker:npm-onboard-discord-channel-agent",
+        "test:docker:npm-onboard-slack-channel-agent",
+        "test:docker:npm-telegram-live",
+        "test:docker:onboard",
+        "test:docker:openai-chat-tools",
+        "test:docker:openai-image-auth",
+        "test:docker:openai-web-search-minimal",
+        "test:docker:openwebui",
+        "test:docker:package-install",
+        "test:docker:plugin-binding-command-escape",
+        "test:docker:plugin-lifecycle-matrix",
+        "test:docker:plugin-update",
+        "test:docker:plugins",
+        "test:docker:published-upgrade-survivor",
+        "test:docker:qr",
+        "test:docker:release-media-memory",
+        "test:docker:release-plugin-marketplace",
+        "test:docker:release-typed-onboarding",
+        "test:docker:release-upgrade-user-journey",
+        "test:docker:release-user-journey",
+        "test:docker:rerun",
+        "test:docker:root-managed-vps-upgrade",
+        "test:docker:sandbox-browser-sidecar",
+        "test:docker:selected-plugins",
+        "test:docker:session-runtime-context",
+        "test:docker:skill-install",
+        "test:docker:system-agent-first-run",
+        "test:docker:system-agent-rescue",
+        "test:docker:timings",
+        "test:docker:update-channel-switch",
+        "test:docker:update-corrupt-plugin",
+        "test:docker:update-first-hop-compat",
+        "test:docker:update-migration",
+        "test:docker:update-restart-auth",
+        "test:docker:upgrade-survivor",
+        "test:e2e",
+        "test:e2e:agent-plugin-gateway",
+        "test:e2e:browser-extension",
+        "test:e2e:browser-mcp",
+        "test:e2e:gateway",
+        "test:e2e:node-auto-update",
+        "test:e2e:openshell",
+        "test:env-mutations:report",
+        "test:extension",
+        "test:extensions",
+        "test:extensions:batch",
+        "test:extensions:memory",
+        "test:extensions:package-boundary",
+        "test:extensions:package-boundary:canary",
+        "test:extensions:package-boundary:compile",
+        "test:fast",
+        "test:force",
+        "test:freebsd:service-inspect",
+        "test:gateway",
+        "test:gateway:concurrency",
+        "test:gateway:cpu-scenarios",
+        "test:gateway:memory-fd-repro",
+        "test:gateway:watch-regression",
+        "test:gateway:worker-commit",
+        "test:install:e2e",
+        "test:install:e2e:anthropic",
+        "test:install:e2e:openai",
+        "test:install:smoke",
+        "test:live",
+        "test:live:cache",
+        "test:live:codex-harness",
+        "test:live:gateway-profiles",
+        "test:live:media",
+        "test:live:media:image",
+        "test:live:media:music",
+        "test:live:media:video",
+        "test:live:models-profiles",
+        "test:live:system-agent-rescue-channel",
+        "test:macos:ci",
+        "test:macos:ci:1",
+        "test:macos:ci:2",
+        "test:macos:ci:3",
+        "test:max",
+        "test:parallels:linux",
+        "test:parallels:macos",
+        "test:parallels:npm-update",
+        "test:parallels:windows",
+        "test:parallels:windows:prepare",
+        "test:perf:budget",
+        "test:perf:changed:bench",
+        "test:perf:groups",
+        "test:perf:groups:compare",
+        "test:perf:hotspots",
+        "test:perf:imports",
+        "test:perf:imports:changed",
+        "test:perf:profile:main",
+        "test:perf:profile:runner",
+        "test:plugins:gateway-gauntlet",
+        "test:plugins:init-provider-scaffold",
+        "test:plugins:kitchen-sink-live",
+        "test:plugins:kitchen-sink-rpc",
+        "test:plugins:kitchen-sink-rpc:bun",
+        "test:restart:gateway",
+        "test:sectriage",
+        "test:serial",
+        "test:sessions:history:bench",
+        "test:sessions:hydration-memory",
+        "test:sessions:paths:bench",
+        "test:sessions:write-hold",
+        "test:skip-inventory:report",
+        "test:sqlite:perf",
+        "test:sqlite:perf:large",
+        "test:sqlite:perf:smoke",
+        "test:stability:gateway",
+        "test:startup:bench",
+        "test:startup:bench:check",
+        "test:startup:bench:save",
+        "test:startup:bench:smoke",
+        "test:startup:bench:update",
+        "test:startup:gateway",
+        "test:startup:memory",
+        "test:tasks:sqlite-churn",
+        "test:type-suppression-inventory:report",
+        "test:ui",
+        "test:ui:e2e",
+        "test:unit",
+        "test:unit:fast",
+        "test:unit:fast:audit",
+        "test:voicecall:closedloop",
+        "test:watch",
+        "test:windows:ci",
+        "test:windows:ci:1",
+        "test:windows:ci:2",
+        "test:windows:schtasks:integration",
+        "tool-display:check",
+        "tool-display:write",
+        "ts-topology",
+        "tsgo",
+        "tsgo:all",
+        "tsgo:core",
+        "tsgo:core:all",
+        "tsgo:core:test",
+        "tsgo:extensions",
+        "tsgo:extensions:all",
+        "tsgo:extensions:test",
+        "tsgo:prod",
+        "tsgo:profile",
+        "tsgo:scripts",
+        "tsgo:test",
+        "tsgo:test:extensions",
+        "tsgo:test:packages",
+        "tsgo:test:root",
+        "tsgo:test:src",
+        "tsgo:test:ui",
+        "tsgo:ui",
+        "tui",
+        "tui:dev",
+        "tui:pty:test:watch",
+        "tui:pty:test:watch:all",
+        "tui:pty:test:watch:fake",
+        "tui:pty:test:watch:local",
+        "tui:questions:proof",
+        "ui:boot-manifest:gen",
+        "ui:build",
+        "ui:check-performance",
+        "ui:check-performance:base",
+        "ui:dev",
+        "ui:i18n:baseline",
+        "ui:i18n:check",
+        "ui:i18n:report",
+        "ui:i18n:sync",
+        "ui:i18n:verify",
+        "ui:install",
+        "ui:proof:composer-mic-hover",
+        "ui:proof:injected-turn-notice",
+        "ui:proof:model-picker",
+        "ui:proof:session-toolbar",
+        "ui:proof:where-chip",
+        "ui:proof:workboard",
+        "update:compat:check",
+        "update:compat:gen",
+        "update:network-budget:check",
+        "update:network-budget:gen",
+        "verify"
+      ],
+      "status": "structural_evidence_available",
+      "interpretation": "Evidence of source/build/maintenance structure only; no execution test or quantified code dominance claim."
+    },
+    {
+      "repository": "react/react",
+      "resolved_name": "react/react",
+      "source_directories": [
+        "packages"
+      ],
+      "build_manifests": [
+        "package.json"
+      ],
+      "test_or_ci_paths": [
+        ".github"
+      ],
+      "latest_release": {
+        "tagName": "v19.3.0",
+        "publishedAt": "2026-09-09T18:01:33Z"
+      },
+      "package_entry_points": {},
+      "package_scripts": [
+        "build",
+        "build-for-devtools",
+        "build-for-devtools-dev",
+        "build-for-devtools-prod",
+        "build-for-flight-dev",
+        "build-for-flight-prod",
+        "build-for-vt-dev",
+        "check-release-dependencies",
+        "download-build",
+        "download-build-for-head",
+        "download-build-in-codesandbox-ci",
+        "extract-errors",
+        "flags",
+        "flow",
+        "flow-ci",
+        "flow-typed-install",
+        "generate-changelog",
+        "generate-inline-fizz-runtime",
+        "linc",
+        "lint",
+        "lint-build",
+        "postinstall",
+        "prebuild",
+        "prettier",
+        "prettier-all",
+        "prettier-check",
+        "publish-prereleases",
+        "test",
+        "test-build-devtools",
+        "test-classic",
+        "test-dom-fixture",
+        "test-stable",
+        "test-www",
+        "version-check"
+      ],
+      "status": "structural_evidence_available",
+      "interpretation": "Evidence of source/build/maintenance structure only; no execution test or quantified code dominance claim."
+    },
+    {
+      "repository": "NousResearch/hermes-agent",
+      "resolved_name": "NousResearch/hermes-agent",
+      "source_directories": [
+        "agent",
+        "apps",
+        "hermes_cli",
+        "tools"
+      ],
+      "build_manifests": [
+        "package.json",
+        "pyproject.toml",
+        "setup.py"
+      ],
+      "test_or_ci_paths": [
+        ".github",
+        "tests"
+      ],
+      "latest_release": {
+        "tagName": "v2026.9.21",
+        "publishedAt": "2026-09-21T18:10:55Z"
+      },
+      "package_entry_points": {
+        "name": "hermes-agent"
+      },
+      "package_scripts": [
+        "audit:fix:root",
+        "audit:fix:tui",
+        "audit:fix:web",
+        "audit:root",
+        "audit:tui",
+        "audit:web",
+        "check",
+        "fix",
+        "install:desktop",
+        "install:root",
+        "install:tui",
+        "install:web",
+        "postinstall"
+      ],
+      "status": "structural_evidence_available",
+      "interpretation": "Evidence of source/build/maintenance structure only; no execution test or quantified code dominance claim."
+    },
+    {
+      "repository": "deepseek-ai/deepseek-harness",
+      "resolved_name": "deepseek-ai/deepseek-harness",
+      "source_directories": [
+        "apps",
+        "packages"
+      ],
+      "build_manifests": [
+        "Makefile",
+        "package.json"
+      ],
+      "test_or_ci_paths": [
+        ".github",
+        "pytest.ini"
+      ],
+      "latest_release": null,
+      "package_entry_points": {
+        "name": "@deepseek-ai/dsh-root"
+      },
+      "package_scripts": [
+        "benchmark:npm-resolution",
+        "benchmark:npm-resolution:next",
+        "build",
+        "build:bench",
+        "build:desktop",
+        "build:lib",
+        "build:lib:client",
+        "build:lib:host",
+        "build:native-system",
+        "build:official",
+        "build:web",
+        "change-scope",
+        "check:all",
+        "check:ci",
+        "check:ci:artifacts",
+        "check:ci:bench",
+        "check:ci:consumers",
+        "check:ci:coverage",
+        "check:ci:lint:contracts-ready",
+        "check:ci:linux-primary",
+        "check:ci:snapshot",
+        "check:ci:static",
+        "check:ci:windows-blocking",
+        "check:ci:windows-complete",
+        "check:ci:windows-observational-ready",
+        "check:node-compat",
+        "check:windows-wine",
+        "clean",
+        "constraints",
+        "demo:inspector",
+        "demo:ptc",
+        "dev:desktop",
+        "dev:web",
+        "doc-sync",
+        "doc-typecheck",
+        "doc-typecheck:contracts-ready",
+        "docs:build",
+        "docs:build:mpa",
+        "docs:check",
+        "docs:dev",
+        "docs:preview",
+        "dsh",
+        "duplication",
+        "gen-client-catalog",
+        "gen-config-catalog",
+        "gen-cordis-api",
+        "gen-cordis-catalog",
+        "gen-cordis-inspect-catalog",
+        "gen-dependency-catalog",
+        "gen-doc-graphs",
+        "gen-module-graph",
+        "gen-persistence-catalog",
+        "gen-plugin-packages",
+        "gen-scoped-events",
+        "gen-session-format-catalog",
+        "gen-third-party-notices",
+        "gen-tool-catalog",
+        "gen-translation-brief",
+        "gen-tsconfig-paths",
+        "gen-workflow-guest",
+        "hygiene",
+        "lint",
+        "lint:contracts-ready",
+        "lint:fix",
+        "lint:fix:contracts-ready",
+        "migrate:packed-session-fixtures",
+        "migrate:sessions-to-v4",
+        "mock:llm",
+        "package:desktop",
+        "package:desktop:dir",
+        "package:desktop:mac:arm64",
+        "package:desktop:mac:arm64:dir",
+        "package:desktop:mac:x64",
+        "package:desktop:mac:x64:dir",
+        "package:desktop:win:x64",
+        "package:desktop:win:x64:dir",
+        "package:desktop:win:x64:unsigned",
+        "persistence-changes",
+        "persistence-review",
+        "postinstall",
+        "prepare:desktop",
+        "prepare:primary-runtime",
+        "publint",
+        "publish:npm-baseline",
+        "release:dsh",
+        "release:pack",
+        "release:publish",
+        "release:vendor",
+        "release:verify",
+        "release:verify-packed-install",
+        "rescope-vendor",
+        "rescope-vendor:check",
+        "resolve-translation-pairing-conflicts",
+        "start:desktop",
+        "start:web",
+        "test",
+        "test:approval-policy",
+        "test:bench",
+        "test:bench:built",
+        "test:coverage",
+        "test:coverage:partitioned",
+        "test:docs",
+        "test:e2e",
+        "test:expected",
+        "test:expected:refresh",
+        "test:gui",
+        "test:issue-management",
+        "test:snapshot",
+        "test:snapshot:record",
+        "test:snapshot:refresh",
+        "test:web",
+        "test:web:built",
+        "test:web:ci",
+        "test:web:perf",
+        "test:web:perf:built",
+        "test:web:refresh",
+        "test:web:stress",
+        "typecheck",
+        "typecheck:contracts-ready",
+        "upload:mac:arm64",
+        "upload:mac:x64",
+        "upload:win:x64",
+        "verify-agent-note-classification",
+        "verify-agent-note-format",
+        "verify-application-entrypoints",
+        "verify-archived-agent-notes",
+        "verify-built-package-invariants",
+        "verify-client-catalog",
+        "verify-client-domain-graph",
+        "verify-client-packages",
+        "verify-client-route-resolution",
+        "verify-client-ui-i18n",
+        "verify-concrete-terms",
+        "verify-config-catalog",
+        "verify-config-source-ownership",
+        "verify-cordis-api",
+        "verify-cordis-catalog",
+        "verify-cordis-config",
+        "verify-cordis-inspect-catalog",
+        "verify-default-product-isolation",
+        "verify-dependency-catalog",
+        "verify-doc-budgets",
+        "verify-doc-graphs",
+        "verify-doc-refs",
+        "verify-doc-site-fragments",
+        "verify-dsh-package-licenses",
+        "verify-export-jsdoc",
+        "verify-md-links",
+        "verify-md-wrap",
+        "verify-mermaid",
+        "verify-module-graph",
+        "verify-no-bare-dispatcher",
+        "verify-no-unknown-casts",
+        "verify-node-next-types",
+        "verify-npm-install-layout",
+        "verify-optional-dependency-imports",
+        "verify-package-dependencies",
+        "verify-package-invariants",
+        "verify-package-meta",
+        "verify-package-paths",
+        "verify-package-readme-limitations",
+        "verify-package-readme-model-experience",
+        "verify-package-readme-summaries",
+        "verify-persistence-catalog",
+        "verify-persistence-changes",
+        "verify-persistence-formats",
+        "verify-persistence-releases",
+        "verify-plugin-packages",
+        "verify-public-repository-links",
+        "verify-repository-references",
+        "verify-runtime-closure",
+        "verify-scoped-events",
+        "verify-session-format-catalog",
+        "verify-skill-invocation-metadata",
+        "verify-subsystem-pages",
+        "verify-third-party-notices",
+        "verify-tool-catalog",
+        "verify-translation-pairing",
+        "verify-translation-prompt",
+        "verify-tsconfig-paths",
+        "verify-type-equiv",
+        "verify-v3-event-vocabulary",
+        "verify-workflow-guest",
+        "website:build",
+        "website:dev"
+      ],
+      "status": "structural_evidence_available",
+      "interpretation": "Evidence of source/build/maintenance structure only; no execution test or quantified code dominance claim."
+    },
+    {
+      "repository": "vuejs/vue",
+      "resolved_name": "vuejs/vue",
+      "source_directories": [
+        "packages",
+        "src"
+      ],
+      "build_manifests": [
+        "package.json"
+      ],
+      "test_or_ci_paths": [
+        ".github",
+        "test"
+      ],
+      "latest_release": {
+        "tagName": "v2.7.16",
+        "publishedAt": "2023-12-24T15:02:39Z"
+      },
+      "package_entry_points": {
+        "name": "vue",
+        "main": "dist/vue.runtime.common.js",
+        "module": "dist/vue.runtime.esm.js",
+        "exports": {
+          ".": {
+            "types": "./types/index.d.ts",
+            "import": {
+              "node": "./dist/vue.runtime.mjs",
+              "default": "./dist/vue.runtime.esm.js"
+            },
+            "require": "./dist/vue.runtime.common.js"
+          },
+          "./compiler-sfc": {
+            "types": "./compiler-sfc/index.d.ts",
+            "import": "./compiler-sfc/index.mjs",
+            "require": "./compiler-sfc/index.js"
+          },
+          "./dist/*": "./dist/*",
+          "./types/*": [
+            "./types/*.d.ts",
+            "./types/*"
+          ],
+          "./package.json": "./package.json"
+        }
+      },
+      "package_scripts": [
+        "bench:ssr",
+        "build",
+        "build:ssr",
+        "build:types",
+        "changelog",
+        "dev",
+        "dev:cjs",
+        "dev:compiler",
+        "dev:esm",
+        "dev:ssr",
+        "format",
+        "release",
+        "test",
+        "test:e2e",
+        "test:sfc",
+        "test:ssr",
+        "test:transition",
+        "test:types",
+        "test:unit",
+        "ts-check",
+        "ts-check:test"
+      ],
+      "status": "structural_evidence_available",
+      "interpretation": "Evidence of source/build/maintenance structure only; no execution test or quantified code dominance claim."
+    },
+    {
+      "repository": "anomalyco/opencode",
+      "resolved_name": "anomalyco/opencode",
+      "source_directories": [
+        "packages"
+      ],
+      "build_manifests": [
+        "package.json"
+      ],
+      "test_or_ci_paths": [
+        ".github"
+      ],
+      "latest_release": {
+        "tagName": "v1.18.32",
+        "publishedAt": "2026-09-21T22:51:20Z"
+      },
+      "package_entry_points": {
+        "name": "opencode"
+      },
+      "package_scripts": [
+        "dev",
+        "dev:console",
+        "dev:desktop",
+        "dev:stats",
+        "dev:storybook",
+        "dev:web",
+        "lint",
+        "postinstall",
+        "prepare",
+        "random",
+        "sso",
+        "test",
+        "translate:app",
+        "typecheck",
+        "upgrade-opentui"
+      ],
+      "status": "structural_evidence_available",
+      "interpretation": "Evidence of source/build/maintenance structure only; no execution test or quantified code dominance claim."
+    },
+    {
+      "repository": "n8n-io/n8n",
+      "resolved_name": "n8n-io/n8n",
+      "source_directories": [
+        "packages"
+      ],
+      "build_manifests": [
+        "package.json"
+      ],
+      "test_or_ci_paths": [
+        ".github"
+      ],
+      "latest_release": {
+        "tagName": "n8n@2.40.5",
+        "publishedAt": "2026-09-21T14:03:50Z"
+      },
+      "package_entry_points": {
+        "name": "n8n-monorepo"
+      },
+      "package_scripts": [
+        "agent:harness",
+        "agent:setup",
+        "boundaries",
+        "boundaries:baseline",
+        "boundaries:check",
+        "build",
+        "build:deploy",
+        "build:docker",
+        "build:docker:clean",
+        "build:docker:coverage",
+        "build:docker:scan",
+        "build:docker:smoke",
+        "build:docker:test",
+        "build:n8n",
+        "build:unchecked",
+        "check:cubic-config",
+        "check:skill-links",
+        "check:workspace-private-deps",
+        "clean",
+        "db:schema:check",
+        "db:schema:check:sqlite",
+        "db:schema:docs",
+        "dev",
+        "dev-metrics:opt-in",
+        "dev-metrics:reset",
+        "dev-metrics:status",
+        "dev:ai",
+        "dev:be",
+        "dev:computer-use",
+        "dev:design-system",
+        "dev:e2e",
+        "dev:fe",
+        "dev:fe:editor",
+        "dev:up",
+        "format",
+        "format:check",
+        "grind",
+        "inspect:activity",
+        "install-workflow-scripts",
+        "lint",
+        "lint:affected",
+        "lint:ci",
+        "lint:fix",
+        "lint:styles",
+        "lint:styles:fix",
+        "mutate",
+        "mutate:diff",
+        "n8n-module-sdk",
+        "nathan",
+        "optimize-svg",
+        "preinstall",
+        "prepare",
+        "preview",
+        "preview:serve",
+        "reset",
+        "seed:account",
+        "seed:account:check",
+        "seed:history",
+        "seed:preference",
+        "seed:test",
+        "session",
+        "session:opencode",
+        "session:shell",
+        "setup-backend-module",
+        "start",
+        "stop:computer-use",
+        "sync:skill-links",
+        "test",
+        "test:affected",
+        "test:ci",
+        "test:ci:backend",
+        "test:ci:backend:integration",
+        "test:ci:backend:integration:changed",
+        "test:ci:backend:unit",
+        "test:ci:frontend",
+        "test:ci:frontend:changed",
+        "test:encryption:rotation",
+        "test:encryption:upgrade",
+        "test:show:report",
+        "test:with:docker",
+        "typecheck",
+        "watch",
+        "webhook",
+        "worker"
+      ],
+      "status": "structural_evidence_available",
+      "interpretation": "Evidence of source/build/maintenance structure only; no execution test or quantified code dominance claim."
+    },
+    {
+      "repository": "tensorflow/tensorflow",
+      "resolved_name": "tensorflow/tensorflow",
+      "source_directories": [
+        "tensorflow",
+        "tools"
+      ],
+      "build_manifests": [
+        "BUILD",
+        "MODULE.bazel",
+        "WORKSPACE",
+        "configure",
+        "configure.py"
+      ],
+      "test_or_ci_paths": [
+        ".github"
+      ],
+      "latest_release": {
+        "tagName": "v2.21.0",
+        "publishedAt": "2026-03-06T19:48:15Z"
+      },
+      "package_entry_points": {},
+      "package_scripts": [],
+      "status": "structural_evidence_available",
+      "interpretation": "Evidence of source/build/maintenance structure only; no execution test or quantified code dominance claim."
+    },
+    {
+      "repository": "yt-dlp/yt-dlp",
+      "resolved_name": "yt-dlp/yt-dlp",
+      "source_directories": [
+        "yt_dlp"
+      ],
+      "build_manifests": [
+        "Makefile",
+        "pyproject.toml"
+      ],
+      "test_or_ci_paths": [
+        ".github",
+        "test"
+      ],
+      "latest_release": {
+        "tagName": "2026.08.19",
+        "publishedAt": "2026-08-19T23:48:43Z"
+      },
+      "package_entry_points": {},
+      "package_scripts": [],
+      "status": "structural_evidence_available",
+      "interpretation": "Evidence of source/build/maintenance structure only; no execution test or quantified code dominance claim."
+    },
+    {
+      "repository": "microsoft/vscode",
+      "resolved_name": "microsoft/vscode",
+      "source_directories": [
+        "src"
+      ],
+      "build_manifests": [
+        "package.json"
+      ],
+      "test_or_ci_paths": [
+        "test",
+        ".github"
+      ],
+      "latest_release": {
+        "tagName": "1.139.0",
+        "publishedAt": "2026-09-23T10:32:34Z"
+      },
+      "status": "structural_evidence_available",
+      "checked_at": "2026-09-24T07:58:38.490618+00:00",
+      "interpretation": "Programmatic source/build/test structure evidence; no execution test."
+    }
+  ]
+}

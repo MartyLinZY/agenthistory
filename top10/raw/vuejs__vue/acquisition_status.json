@@ -1,0 +1,23 @@
+{
+  "repository": "vuejs/vue",
+  "group": "high",
+  "rank": 5,
+  "status": "complete",
+  "updated_at": "2026-09-24T08:11:27.818250Z",
+  "unique_prs": 92,
+  "expected_prs": 92,
+  "enumeration_complete": true,
+  "file_lists_complete": 88,
+  "source_lines_eligible": 88,
+  "created_in_window": 92,
+  "merged_in_window": 0,
+  "agent_detected": 0,
+  "error": null,
+  "merged_file_lists_complete": 0,
+  "merged_source_lines_eligible": 0,
+  "file_pagination_scope": "All merged-in-window PRs; other PRs retain first file page and aggregate additions/deletions",
+  "elapsed_seconds_this_run": 8.71,
+  "elapsed_seconds_total": 8.71,
+  "new_prs_this_run": 92,
+  "throughput_new_prs_per_second": 10.562571756601606
+}

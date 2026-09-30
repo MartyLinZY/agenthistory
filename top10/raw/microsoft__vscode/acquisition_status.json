@@ -1,0 +1,23 @@
+{
+  "repository": "microsoft/vscode",
+  "group": "high",
+  "rank": 10,
+  "status": "complete",
+  "updated_at": "2026-09-24T10:10:47.699790Z",
+  "unique_prs": 25204,
+  "expected_prs": 25204,
+  "enumeration_complete": true,
+  "file_lists_complete": 24698,
+  "source_lines_eligible": 24698,
+  "created_in_window": 25131,
+  "merged_in_window": 19487,
+  "agent_detected": 2069,
+  "error": null,
+  "merged_file_lists_complete": 19486,
+  "merged_source_lines_eligible": 19486,
+  "file_pagination_scope": "All merged-in-window PRs; other PRs retain first file page and aggregate additions/deletions",
+  "elapsed_seconds_this_run": 801.3,
+  "elapsed_seconds_total": 801.41,
+  "new_prs_this_run": 25204,
+  "throughput_new_prs_per_second": 31.453887432921505
+}

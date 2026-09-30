@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "chunk_size_bytes": 90000000,
+  "files": [
+    {
+      "path": "github_all/raw/prs.jsonl.gz",
+      "size": 411312583,
+      "sha256": "842ac758331c0cca0ddf0d3ebd3a65e6f2028e934f823a4a78e0181ed87c65f9",
+      "parts": [
+        {
+          "path": "github_all/raw/prs.jsonl.gz.part001",
+          "size": 90000000,
+          "sha256": "28c884dae03870dbba7265f935696f0f38b834fa8777e9e92e451e542fed9259"
+        },
+        {
+          "path": "github_all/raw/prs.jsonl.gz.part002",
+          "size": 90000000,
+          "sha256": "11e762ee02524b1cf4dcc8667dbe5d5c9da0b19719cc98b11bc337fa6f562c6e"
+        },
+        {
+          "path": "github_all/raw/prs.jsonl.gz.part003",
+          "size": 90000000,
+          "sha256": "76fa0e6fae6c537734b34cacadb51602e9881c30cbc742db614c66d65c461faf"
+        },
+        {
+          "path": "github_all/raw/prs.jsonl.gz.part004",
+          "size": 90000000,
+          "sha256": "4e50f7702c73674317bd94d7d6defbd3ab564496ea6578ae7406e56412722aea"
+        },
+        {
+          "path": "github_all/raw/prs.jsonl.gz.part005",
+          "size": 51312583,
+          "sha256": "8c1ee0430f041a915717786118c8d78ef4eceb0199701a752d7e0977ff096207"
+        }
+      ]
+    }
+  ]
+}

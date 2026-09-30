@@ -1,0 +1,23 @@
+{
+  "repository": "openclaw/openclaw",
+  "group": "high",
+  "rank": 1,
+  "status": "complete",
+  "updated_at": "2026-09-24T07:28:39.753811Z",
+  "unique_prs": 54904,
+  "expected_prs": 54904,
+  "enumeration_complete": true,
+  "file_lists_complete": 51068,
+  "source_lines_eligible": 51068,
+  "created_in_window": 54904,
+  "merged_in_window": 11865,
+  "agent_detected": 5003,
+  "error": null,
+  "merged_file_lists_complete": 11864,
+  "merged_source_lines_eligible": 11864,
+  "file_pagination_scope": "All merged-in-window PRs; other PRs retain first file page and aggregate additions/deletions",
+  "elapsed_seconds_this_run": 2183.16,
+  "elapsed_seconds_total": 14673.39,
+  "new_prs_this_run": 30889,
+  "throughput_new_prs_per_second": 14.148756847871892
+}

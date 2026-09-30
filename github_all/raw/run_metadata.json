@@ -1,0 +1,102 @@
+{
+  "agents": [
+    {
+      "group": "core",
+      "name": "codex",
+      "signals": [
+        "head:codex/"
+      ],
+      "window_hours": 1
+    },
+    {
+      "group": "core",
+      "name": "copilot",
+      "signals": [
+        "head:copilot/"
+      ],
+      "window_hours": 5
+    },
+    {
+      "group": "core",
+      "name": "claude_code",
+      "signals": [
+        "\"Co-Authored-By: Claude\" in:body",
+        "\"Generated with Claude Code\" in:body"
+      ],
+      "window_hours": 5
+    },
+    {
+      "group": "core",
+      "name": "jules",
+      "signals": [
+        "author:google-labs-jules[bot]"
+      ],
+      "window_hours": 24
+    },
+    {
+      "group": "core",
+      "name": "devin",
+      "signals": [
+        "author:devin-ai-integration[bot]"
+      ],
+      "window_hours": 24
+    }
+  ],
+  "collectionLimit": 100,
+  "counts": {
+    "failures": 6903,
+    "matches": 12932274,
+    "prs": {
+      "complete": 126740,
+      "failed": 1897,
+      "pending": 12735172
+    },
+    "selections": {
+      "unified-0.1pct": 12864,
+      "unified-0.3pct": 38591,
+      "unified-0.4pct": 51457,
+      "unified-1pct": 128637,
+      "unified-2025-2026": 128637
+    },
+    "unique_prs": 12863809,
+    "windows": {
+      "complete": 31384,
+      "split": 9322
+    }
+  },
+  "credentialRedaction": {
+    "failureOccurrences": 0,
+    "patchOccurrences": 0,
+    "payloadOccurrences": 0
+  },
+  "exported_at": "2026-09-27T03:53:44.118615Z",
+  "includeChecks": false,
+  "includePatch": false,
+  "interpretationLimits": [
+    "Search signals demonstrate observable Agent association, not pure Agent authorship.",
+    "Merged state and successful checks are evidence fields, not correctness ground truth.",
+    "A truncated search window or collection must not be treated as complete data."
+  ],
+  "method": "GitHub GraphQL time-stratified PR search",
+  "minimumWindowSeconds": 60,
+  "period": {
+    "endExclusive": "2026-07-01T00:00:00Z",
+    "startInclusive": "2025-01-01T00:00:00Z"
+  },
+  "repositories": [
+    null
+  ],
+  "schemaVersion": "1.0.0",
+  "searchExtra": "",
+  "selection": {
+    "detailsPerAgent": null,
+    "intervalMonths": 3,
+    "maxPerRepositoryPerAgent": 5,
+    "name": "unified-1pct",
+    "sampleMaxPerRepository": null,
+    "sampleRate": 0.01,
+    "seed": "agentbench-2025-2026",
+    "temporalStratum": "UTC calendar day"
+  },
+  "splitThreshold": 900
+}

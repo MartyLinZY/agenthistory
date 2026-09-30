@@ -1,0 +1,23 @@
+{
+  "repository": "NousResearch/hermes-agent",
+  "group": "high",
+  "rank": 3,
+  "status": "complete",
+  "updated_at": "2026-09-24T08:10:19.205871Z",
+  "unique_prs": 41981,
+  "expected_prs": 41981,
+  "enumeration_complete": true,
+  "file_lists_complete": 38732,
+  "source_lines_eligible": 38732,
+  "created_in_window": 41981,
+  "merged_in_window": 7170,
+  "agent_detected": 1563,
+  "error": null,
+  "merged_file_lists_complete": 7170,
+  "merged_source_lines_eligible": 7170,
+  "file_pagination_scope": "All merged-in-window PRs; other PRs retain first file page and aggregate additions/deletions",
+  "elapsed_seconds_this_run": 189.07,
+  "elapsed_seconds_total": 1591.67,
+  "new_prs_this_run": 2523,
+  "throughput_new_prs_per_second": 13.344264029195536
+}

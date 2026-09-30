@@ -1,0 +1,23 @@
+{
+  "repository": "react/react",
+  "group": "high",
+  "rank": 2,
+  "status": "complete",
+  "updated_at": "2026-09-24T07:37:24.445361Z",
+  "unique_prs": 3174,
+  "expected_prs": 3174,
+  "enumeration_complete": true,
+  "file_lists_complete": 2958,
+  "source_lines_eligible": 2958,
+  "created_in_window": 3142,
+  "merged_in_window": 1766,
+  "agent_detected": 30,
+  "error": null,
+  "merged_file_lists_complete": 1766,
+  "merged_source_lines_eligible": 1766,
+  "file_pagination_scope": "All merged-in-window PRs; other PRs retain first file page and aggregate additions/deletions",
+  "elapsed_seconds_this_run": 175.38,
+  "elapsed_seconds_total": 175.38,
+  "new_prs_this_run": 3174,
+  "throughput_new_prs_per_second": 18.09784468012316
+}

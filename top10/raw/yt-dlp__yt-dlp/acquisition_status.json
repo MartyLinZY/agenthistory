@@ -1,0 +1,23 @@
+{
+  "repository": "yt-dlp/yt-dlp",
+  "group": "high",
+  "rank": 9,
+  "status": "partial",
+  "updated_at": "2026-09-24T09:56:30.408753Z",
+  "unique_prs": 1497,
+  "expected_prs": 1499,
+  "enumeration_complete": false,
+  "file_lists_complete": 1454,
+  "source_lines_eligible": 1454,
+  "created_in_window": 1454,
+  "merged_in_window": 919,
+  "agent_detected": 0,
+  "error": "Unresolvable PR identities retained: 2",
+  "merged_file_lists_complete": 885,
+  "merged_source_lines_eligible": 885,
+  "file_pagination_scope": "All merged-in-window PRs; other PRs retain first file page and aggregate additions/deletions",
+  "elapsed_seconds_this_run": 0.41,
+  "elapsed_seconds_total": 3599.22,
+  "new_prs_this_run": 0,
+  "throughput_new_prs_per_second": 0.0
+}

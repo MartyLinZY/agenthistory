@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "source": "aidev_pop_human_review_analysis_summary_10cats (1)(1)_revised.md",
+  "task": "Classify concerns explicitly observable in one human review text about an Agent-associated pull request.",
+  "multi_label": true,
+  "code_issue_categories": {
+    "functional_bug": "Reviewer指出功能、逻辑、状态更新、返回值、运行结果或运行时行为错误。",
+    "implementation_deviation": "Reviewer指出实现偏离需求、PR目标、issue、规范、既有项目语义或预期接口。",
+    "design_maintainability": "Reviewer指出设计、抽象、复杂度、耦合、职责、可读性、扩展性或长期维护问题。",
+    "insufficient_testing": "Reviewer明确指出缺少测试、覆盖不足、测试验证目标错误、缺少回归或关键场景测试。",
+    "duplication_redundancy": "Reviewer指出重复实现、未复用既有逻辑、冗余或无用代码。",
+    "other_code_issue": "明确的代码、配置或工程质量问题，但不能可靠归入其他九类；纯风格或命名约定问题归入此类。",
+    "compatibility": "Reviewer指出平台、版本、API、依赖、向后兼容、数据格式或运行环境兼容问题。",
+    "edge_case": "Reviewer指出空值、空输入、异常状态、极端值、特殊类型、特殊配置或其他边界条件问题。",
+    "documentation": "Reviewer指出文档、注释、链接、示例或说明缺失、错误、不准确或与实际能力不一致。",
+    "security": "Reviewer指出安全、权限、认证、授权、注入、敏感信息、隐私或其他安全风险。"
+  },
+  "sentinel": {
+    "non_code_issue": "审批、感谢、一般讨论、流程协调、无具体代码 concern 的问题或建议。"
+  },
+  "severity": {
+    "high": "Reviewer描述崩溃、数据损坏、严重安全风险、核心功能不可用或广泛破坏。",
+    "medium": "Reviewer描述用户可见错误、重要需求偏差、明显兼容性或工程质量风险。",
+    "low": "局部、低影响、易修复或主要影响维护/文档的问题。",
+    "unknown": "Review文本没有足够信息判断潜在影响。"
+  },
+  "boundary_rules": [
+    "只分类review文本明确表达的concern；不得从PR、patch或常识推测未被reviewer指出的问题。",
+    "human review是reported concern，不等同于独立验证后的真实缺陷。",
+    "若is_code_issue=false，categories必须且只能为non_code_issue。",
+    "若is_code_issue=true，categories必须包含至少一个code_issue_categories中的标签，不能包含non_code_issue。",
+    "functional_bug、implementation_deviation和edge_case可在文本分别提供证据时多标签共存。",
+    "design_maintainability与duplication_redundancy可在重复同时导致维护风险时共存。",
+    "只有明确谈到测试缺失、覆盖或验证不足时才标insufficient_testing。",
+    "提问若表达了具体代码风险可视为code issue；纯澄清问题属于non_code_issue。"
+  ]
+}
