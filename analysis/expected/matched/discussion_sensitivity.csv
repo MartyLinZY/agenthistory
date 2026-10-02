@@ -1,0 +1,11 @@
+agent,mode,repositories,strata,prs,difference_pp
+claude_code,resolved_only,190,220,757,-1.6093291690013758
+claude_code,two_per_group,17,20,150,20.715125891896093
+codex,resolved_only,46,56,195,7.711814529069964
+codex,two_per_group,4,5,47,-22.443181818181817
+copilot,resolved_only,252,297,843,-5.319938566719735
+copilot,two_per_group,13,22,184,7.542604626195957
+devin,resolved_only,8,13,56,-0.3438228438228438
+devin,two_per_group,3,6,38,9.735449735449736
+jules,resolved_only,30,35,100,-22.138888888888893
+jules,two_per_group,3,3,19,0.0

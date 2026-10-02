@@ -28,3 +28,7 @@ The merge script restores `github_all/raw/prs.jsonl.gz` and verifies each chunk 
 ## Rebuild the chunks
 
 After restoring the archives, run `python3 split_data.py` to regenerate chunks for files larger than 90 MB. Smaller files remain intact. The script verifies the written chunks, saves the manifests, and deletes only the successfully split large originals. Commit the ordinary `.jsonl.gz` files, the `.partNNN` files, and the manifests in the original `raw/` directories. The restored large `github_all/raw/prs.jsonl.gz` is ignored by Git. Chunk files are byte segments and cannot be decompressed individually.
+
+## Reproduce the paper results
+
+The complete offline analysis pipeline, including matched comparisons, workflow decompositions, module classification, temporal analyses and expanded project signals, is documented in [analysis/README.md](analysis/README.md). Run `python3 analysis/run_all.py` after installing `requirements.txt`. The final project-level results are in `build/analysis/projects/`; `projects_base/` is an intermediate dataset under the original signal rules.
